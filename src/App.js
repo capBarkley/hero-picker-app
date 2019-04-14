@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import HeroList from './components/HeroList';
 import {heroList} from './herolist.js';
+// import 'bootstrap/dist/css/bootstrap.css';
 import 'tachyons';
 import SearchBox from './components/SearchBox';
 import $ from 'jquery';

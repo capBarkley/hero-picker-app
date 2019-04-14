@@ -18,7 +18,36 @@ export const heroList = [
     "Support",
     "Carry",
     "Durable"
+    ],
+    counters: {
+    badAgainst: [
+    "Ancient Apparition",
+    "Brewmaster",
+    "Doom",
+    "Outworld Devourer",
+    "Shadow Demon"
+    ],
+    goodAgainst: [
+    "Death Prophet",
+    "Mirana",
+    "Bane",
+    "Batrider",
+    "Beastmaster",
+    "Chen",
+    "Techies",
+    "Bloodseeker",
+    "Necrophos"
+    ],
+    worksWell: [
+    "Storm Spirit",
+    "Phantom Assassin",
+    "Io",
+    "Axe",
+    "Legion Commander",
+    "Centaur Warrunner",
+    "Oracle"
     ]
+    }
     },
     {
     id: 1,
@@ -42,7 +71,30 @@ export const heroList = [
     "Disabler",
     "Initiator",
     "Nuker"
+    ],
+    counters: {
+    badAgainst: [
+    "Ancient Apparition",
+    "Enchantress",
+    "Invoker",
+    "Lifestealer",
+    "Necrophos",
+    "Slardar",
+    "Slark",
+    "Ursa",
+    "Ember Spirit",
+    "Juggernaut"
+    ],
+    goodAgainst: [
+    "Broodmother",
+    "Nature's Prophet",
+    "Phoenix",
+    "Undying"
+    ],
+    worksWell: [
+    "Oracle"
     ]
+    }
     },
     {
     id: 2,
@@ -64,7 +116,50 @@ export const heroList = [
     "Durable",
     "Disabler",
     "Jungler"
+    ],
+    counters: {
+    badAgainst: [
+    "Doom",
+    "Jakiro",
+    "Lifestealer",
+    "Necrophos",
+    "Outworld Devourer",
+    "Phoenix",
+    "Pugna",
+    "Ursa",
+    "Undying",
+    "Venomancer",
+    "Viper"
+    ],
+    goodAgainst: [
+    "Anti-Mage",
+    "Broodmother",
+    "Chaos Knight",
+    "Dazzle",
+    "Huskar",
+    "Legion Commander",
+    "Nature's Prophet",
+    "Phantom Assassin",
+    "Phantom Lancer",
+    "Slark",
+    "Terrorblade",
+    "Troll Warlord",
+    "Weaver"
+    ],
+    worksWell: [
+    "Dark Seer",
+    "Dazzle",
+    "Enigma",
+    "Disruptor",
+    "Magnus",
+    "Phoenix",
+    "Sand King",
+    "Skywrath Mage",
+    "Tiny",
+    "Venomancer",
+    "Witch Doctor"
     ]
+    }
     },
     {
     id: 3,
@@ -86,7 +181,40 @@ export const heroList = [
     "Disabler",
     "Durable",
     "Nuker"
+    ],
+    counters: {
+    badAgainst: [
+    "Abaddon",
+    "Enchantress",
+    "Earthshaker",
+    "Keeper of the Light",
+    "Oracle",
+    "Timbersaw",
+    "Winter Wyvern"
+    ],
+    goodAgainst: [
+    "Monkey King",
+    "Phoenix",
+    "Sven",
+    "Templar Assassin",
+    "Tinker",
+    "Tiny",
+    "Troll Warlord",
+    "Ursa",
+    "Wraith King"
+    ],
+    worksWell: [
+    "Lifestealer",
+    "Nature's Prophet",
+    "Phantom Assassin",
+    "Spirit Breaker",
+    "Sven",
+    "Tinker",
+    "Tiny",
+    "Underlord",
+    "Ursa"
     ]
+    }
     },
     {
     id: 4,
@@ -109,7 +237,31 @@ export const heroList = [
     "Durable",
     "Disabler",
     "Nuker"
+    ],
+    counters: {
+    badAgainst: [
+    "Bane",
+    "Death Prophet",
+    "Lion",
+    "Outworld Devourer",
+    "Shadow Shaman",
+    "Skywrath Mage"
+    ],
+    goodAgainst: [
+    "Huskar",
+    "Lone Druid",
+    "Lycan",
+    "Templar Assassin",
+    "Ursa"
+    ],
+    worksWell: [
+    "Dazzle",
+    "Oracle",
+    "Tiny",
+    "Invoker",
+    "Ancient Apparition"
     ]
+    }
     },
     {
     id: 5,
@@ -131,7 +283,48 @@ export const heroList = [
     "Durable",
     "Initiator",
     "Nuker"
+    ],
+    counters: {
+    badAgainst: [
+    "Anti-Mage",
+    "Doom",
+    "Faceless Void",
+    "Grimstroke",
+    "Legion Commander",
+    "Lion",
+    "Necrophos",
+    "Outworld Devourer",
+    "Razor",
+    "Silencer",
+    "Slardar",
+    "Timbersaw",
+    "Viper",
+    "Weaver"
+    ],
+    goodAgainst: [
+    "Arc Warden",
+    "Broodmother",
+    "Chaos Knight",
+    "Huskar",
+    "Jakiro",
+    "Luna",
+    "Lycan",
+    "Meepo",
+    "Phantom Lancer",
+    "Pudge",
+    "Riki",
+    "Rubick",
+    "Sand King"
+    ],
+    worksWell: [
+    "Crystal Maiden",
+    "Dazzle",
+    "Drow Ranger",
+    "Keeper of the Light",
+    "Skywrath Mage",
+    "Venomancer"
     ]
+    }
     },
     {
     id: 6,
@@ -154,7 +347,34 @@ export const heroList = [
     "Disabler",
     "Nuker",
     "Escape"
+    ],
+    counters: {
+    badAgainst: [
+    "Disruptor",
+    "Lifestealer",
+    "Necrophos",
+    "Nyx Assassin",
+    "Templar Assassin"
+    ],
+    goodAgainst: [
+    "Arc Warden",
+    "Doom",
+    "Nyx Assassin",
+    "Phantom Assassin",
+    "Phantom Lancer",
+    "Sniper",
+    "Windranger"
+    ],
+    worksWell: [
+    "Abaddon",
+    "Mirana",
+    "Sven",
+    "Tusk",
+    "Tiny",
+    "Vengeful Spirit",
+    "Grimstroke"
     ]
+    }
     },
     {
     id: 7,
@@ -177,7 +397,48 @@ export const heroList = [
     "Durable",
     "Pusher",
     "Initiator"
+    ],
+    counters: {
+    badAgainst: [
+    "Tinker",
+    "Axe",
+    "Lion",
+    "Terrorblade",
+    "Brewmaster",
+    "Dragon Knight",
+    "Earthshaker",
+    "Enigma",
+    "Jakiro",
+    "Lich",
+    "Magnus",
+    "Monkey King",
+    "Phantom Lancer",
+    "Omniknight",
+    "Pugna",
+    "Sand King",
+    "Sven",
+    "Tidehunter",
+    "Timbersaw",
+    "Winter Wyvern",
+    "Puck"
+    ],
+    goodAgainst: [
+    "Bounty Hunter",
+    "Lone Druid",
+    "Pudge",
+    "Silencer",
+    "Slark",
+    "Techies",
+    "Ursa",
+    "Viper"
+    ],
+    worksWell: [
+    "Crystal Maiden",
+    "Keeper of the Light",
+    "Morphling",
+    "Shadow Demon"
     ]
+    }
     },
     {
     id: 8,
@@ -199,7 +460,46 @@ export const heroList = [
     "Disabler",
     "Durable",
     "Nuker"
+    ],
+    counters: {
+    badAgainst: [
+    "Anti-Mage",
+    "Chen",
+    "Clinkz",
+    "Dazzle",
+    "Disruptor",
+    "Ember Spirit",
+    "Huskar",
+    "Juggernaut",
+    "Lifestealer",
+    "Morphling",
+    "Omniknight",
+    "Phantom Lancer",
+    "Phoenix",
+    "Queen of Pain",
+    "Terrorblade",
+    "Ursa",
+    "Visage"
+    ],
+    goodAgainst: [
+    "Earthshaker",
+    "Drow Ranger",
+    "Legion Commander",
+    "Monkey King",
+    "Pudge",
+    "Sniper",
+    "Spirit Breaker",
+    "Tinker",
+    "Windranger"
+    ],
+    worksWell: [
+    "Dark Seer",
+    "Invoker",
+    "Lifestealer",
+    "Mirana",
+    "Shadow Demon"
     ]
+    }
     },
     {
     id: 9,
@@ -222,7 +522,42 @@ export const heroList = [
     "Initiator",
     "Durable",
     "Nuker"
+    ],
+    counters: {
+    badAgainst: [
+    "Alchemist",
+    "Centaur Warrunner",
+    "Drow Ranger",
+    "Lifestealer",
+    "Lone Druid",
+    "Medusa",
+    "Necrophos",
+    "Phantom Lancer",
+    "Sniper",
+    "Viper",
+    "Wraith King"
+    ],
+    goodAgainst: [
+    "Axe",
+    "Timbersaw",
+    "Anti-Mage",
+    "Bristleback",
+    "Ember Spirit",
+    "Invoker",
+    "Omniknight",
+    "Tinker",
+    "Elder Titan",
+    "Faceless Void",
+    "Arc Warden"
+    ],
+    worksWell: [
+    "Ancient Apparition",
+    "Crystal Maiden",
+    "Grimstroke",
+    "Sven",
+    "Bane"
     ]
+    }
     },
     {
     id: 10,
@@ -246,7 +581,37 @@ export const heroList = [
     "Disabler",
     "Initiator",
     "Nuker"
+    ],
+    counters: {
+    badAgainst: [
+    "Ancient Apparition",
+    "Bristleback",
+    "Lich",
+    "Necrophos",
+    "Outworld Devourer",
+    "Razor",
+    "Timbersaw",
+    "Viper"
+    ],
+    goodAgainst: [
+    "Bloodseeker",
+    "Clinkz",
+    "Nyx Assassin",
+    "Riki",
+    "Spirit Breaker",
+    "Templar Assassin",
+    "Witch Doctor"
+    ],
+    worksWell: [
+    "Chen",
+    "Crystal Maiden",
+    "Enigma",
+    "Magnus",
+    "Medusa",
+    "Treant Protector",
+    "Vengeful Spirit"
     ]
+    }
     },
     {
     id: 11,
@@ -269,7 +634,29 @@ export const heroList = [
     "Disabler",
     "Initiator",
     "Durable"
+    ],
+    counters: {
+    badAgainst: [
+    "Abaddon",
+    "Lycan",
+    "Techies"
+    ],
+    goodAgainst: [
+    "Pudge",
+    "Tinker",
+    "Invoker",
+    "Templar Assassin",
+    "Enigma"
+    ],
+    worksWell: [
+    "Alchemist",
+    "Bloodseeker",
+    "Dark Seer",
+    "Faceless Void",
+    "Lifestealer",
+    "Techies"
     ]
+    }
     },
     {
     id: 12,
@@ -291,7 +678,48 @@ export const heroList = [
     "Initiator",
     "Disabler",
     "Nuker"
+    ],
+    counters: {
+    badAgainst: [
+    "Clockwerk",
+    "Death Prophet",
+    "Disruptor",
+    "Earth Spirit",
+    "Jakiro",
+    "Lifestealer",
+    "Necrophos",
+    "Night Stalker",
+    "Outworld Devourer",
+    "Puck",
+    "Razor",
+    "Rubick",
+    "Skywrath Mage",
+    "Sniper",
+    "Spectre",
+    "Templar Assassin",
+    "Venomancer",
+    "Viper",
+    "Windranger",
+    "Zeus"
+    ],
+    goodAgainst: [
+    "Broodmother",
+    "Chaos Knight",
+    "Enigma",
+    "Meepo",
+    "Naga Siren",
+    "Nature's Prophet",
+    "Phantom Lancer"
+    ],
+    worksWell: [
+    "Dark Seer",
+    "Enigma",
+    "Magnus",
+    "Naga Siren",
+    "Puck",
+    "Sand King"
     ]
+    }
     },
     {
     id: 13,
@@ -313,7 +741,31 @@ export const heroList = [
     "Disabler",
     "Nuker",
     "Durable"
+    ],
+    counters: {
+    badAgainst: [
+    "Brewmaster",
+    "Clockwerk",
+    "Lich",
+    "Lion",
+    "Sven",
+    "Juggernaut"
+    ],
+    goodAgainst: [
+    "Morphling",
+    "Slark",
+    "Terrorblade",
+    "Viper",
+    "Phantom Lancer"
+    ],
+    worksWell: [
+    "Disruptor",
+    "Faceless Void",
+    "Kunkka",
+    "Slardar",
+    "Luna"
     ]
+    }
     },
     {
     id: 14,
@@ -334,7 +786,47 @@ export const heroList = [
     "Carry",
     "Durable",
     "Initiator"
+    ],
+    counters: {
+    badAgainst: [
+    "Abaddon",
+    "Alchemist",
+    "Ancient Apparition",
+    "Axe",
+    "Bristleback",
+    "Chaos Knight",
+    "Enchantress",
+    "Bloodseeker",
+    "Juggernaut",
+    "Lifestealer",
+    "Naga Siren",
+    "Slardar",
+    "Ursa",
+    "Windranger",
+    "Necrophos"
+    ],
+    goodAgainst: [
+    "Weaver",
+    "Clockwerk",
+    "Dragon Knight",
+    "Earthshaker",
+    "Ember Spirit",
+    "Nature's Prophet",
+    "Phoenix"
+    ],
+    worksWell: [
+    "Ancient Apparition",
+    "Beastmaster",
+    "Dazzle",
+    "Omniknight",
+    "Oracle",
+    "Necrophos",
+    "Pugna",
+    "Terrorblade",
+    "Troll Warlord",
+    "Witch Doctor"
     ]
+    }
     },
     {
     id: 15,
@@ -355,7 +847,44 @@ export const heroList = [
     "Support",
     "Escape",
     "Nuker"
+    ],
+    counters: {
+    badAgainst: [
+    "Ancient Apparition",
+    "Bloodseeker",
+    "Bristleback",
+    "Clinkz",
+    "Disruptor",
+    "Legion Commander",
+    "Leshrac",
+    "Luna",
+    "Phantom Assassin",
+    "Sniper",
+    "Spirit Breaker",
+    "Treant Protector",
+    "Winter Wyvern"
+    ],
+    goodAgainst: [
+    "Drow Ranger",
+    "Meepo",
+    "Nature's Prophet",
+    "Phoenix",
+    "Pudge",
+    "Underlord"
+    ],
+    worksWell: [
+    "Chaos Knight",
+    "Gyrocopter",
+    "Juggernaut",
+    "Legion Commander",
+    "Lifestealer",
+    "Phantom Assassin",
+    "Spirit Breaker",
+    "Sven",
+    "Tiny",
+    "Ursa"
     ]
+    }
     },
     {
     id: 16,
@@ -379,7 +908,39 @@ export const heroList = [
     "Initiator",
     "Durable",
     "Nuker"
+    ],
+    counters: {
+    badAgainst: [
+    "Clinkz",
+    "Ursa",
+    "Silencer",
+    "Mirana",
+    "Phoenix",
+    "Omniknight",
+    "Huskar",
+    "Juggernaut",
+    "Lifestealer",
+    "Sniper",
+    "Outworld Devourer"
+    ],
+    goodAgainst: [
+    "Chaos Knight",
+    "Broodmother",
+    "Meepo",
+    "Phantom Lancer",
+    "Queen of Pain",
+    "Spectre",
+    "Sand King",
+    "Warlock"
+    ],
+    worksWell: [
+    "Dark Seer",
+    "Faceless Void",
+    "Huskar",
+    "Lifestealer",
+    "Slark"
     ]
+    }
     },
     {
     id: 17,
@@ -402,7 +963,55 @@ export const heroList = [
     "Initiator",
     "Durable",
     "Nuker"
+    ],
+    counters: {
+    badAgainst: [
+    "Abaddon",
+    "Bane",
+    "Dazzle",
+    "Dragon Knight",
+    "Io",
+    "Mars",
+    "Medusa",
+    "Omniknight",
+    "Oracle",
+    "Pudge",
+    "Pugna",
+    "Razor",
+    "Sven",
+    "Treant Protector",
+    "Underlord",
+    "Ursa",
+    "Visage",
+    "Vengeful Spirit",
+    "Winter Wyvern",
+    "Witch Doctor"
+    ],
+    goodAgainst: [
+    "Anti-Mage",
+    "Bristleback",
+    "Broodmother",
+    "Chen",
+    "Drow Ranger",
+    "Huskar",
+    "Sniper",
+    "Terrorblade",
+    "Weaver"
+    ],
+    worksWell: [
+    "Ancient Apparition",
+    "Disruptor",
+    "Invoker",
+    "Lifestealer",
+    "Mirana",
+    "Shadow Fiend",
+    "Silencer",
+    "Skywrath Mage",
+    "Ursa",
+    "Witch Doctor",
+    "Zeus"
     ]
+    }
     },
     {
     id: 18,
@@ -425,7 +1034,38 @@ export const heroList = [
     "Jungler",
     "Escape",
     "Disabler"
+    ],
+    counters: {
+    badAgainst: [
+    "Ancient Apparition",
+    "Bane",
+    "Beastmaster",
+    "Chaos Knight",
+    "Clinkz",
+    "Terrorblade",
+    "Luna",
+    "Monkey King",
+    "Phantom Lancer",
+    "Slark",
+    "Ursa",
+    "Weaver"
+    ],
+    goodAgainst: [
+    "Enchantress",
+    "Spectre",
+    "Techies",
+    "Tinker"
+    ],
+    worksWell: [
+    "Clockwerk",
+    "Queen of Pain",
+    "Riki",
+    "Slardar",
+    "Spirit Breaker",
+    "Storm Spirit",
+    "Beastmaster"
     ]
+    }
     },
     {
     id: 19,
@@ -448,7 +1088,33 @@ export const heroList = [
     "Jungler",
     "Durable",
     "Escape"
+    ],
+    counters: {
+    badAgainst: [
+    "Axe",
+    "Beastmaster",
+    "Bloodseeker",
+    "Bristleback",
+    "Omniknight",
+    "Phantom Assassin",
+    "Sven",
+    "Timbersaw",
+    "Faceless Void"
+    ],
+    goodAgainst: [
+    "Lich",
+    "Techies",
+    "Arc Warden",
+    "Drow Ranger",
+    "Ursa"
+    ],
+    worksWell: [
+    "Beastmaster",
+    "Broodmother",
+    "Chen",
+    "Nature's Prophet"
     ]
+    }
     },
     {
     id: 20,
@@ -470,7 +1136,36 @@ export const heroList = [
     "Disabler",
     "Nuker",
     "Escape"
+    ],
+    counters: {
+    badAgainst: [
+    "Alchemist",
+    "Night Stalker",
+    "Phoenix",
+    "Rubick",
+    "Sniper",
+    "Spectre",
+    "Treant Protector",
+    "Tinker",
+    "Venomancer",
+    "Wraith King",
+    "Zeus"
+    ],
+    goodAgainst: [
+    "Chaos Knight",
+    "Meepo",
+    "Lifestealer",
+    "Phantom Lancer"
+    ],
+    worksWell: [
+    "Anti-Mage",
+    "Enigma",
+    "Phantom Assassin",
+    "Sven",
+    "Troll Warlord",
+    "Kunkka"
     ]
+    }
     },
     {
     id: 21,
@@ -492,7 +1187,41 @@ export const heroList = [
     "Initiator",
     "Disabler",
     "Durable"
+    ],
+    counters: {
+    badAgainst: [
+    "Batrider",
+    "Faceless Void",
+    "Huskar",
+    "Lina",
+    "Naga Siren",
+    "Necrophos",
+    "Ogre Magi",
+    "Oracle",
+    "Outworld Devourer",
+    "Pugna",
+    "Shadow Fiend",
+    "Underlord",
+    "Undying",
+    "Ursa",
+    "Venomancer",
+    "Viper",
+    "Zeus"
+    ],
+    goodAgainst: [ ],
+    worksWell: [
+    "Huskar",
+    "Crystal Maiden",
+    "Disruptor",
+    "Keeper of the Light",
+    "Kunkka",
+    "Lich",
+    "Monkey King",
+    "Phoenix",
+    "Riki",
+    "Sven"
     ]
+    }
     },
     {
     id: 22,
@@ -515,7 +1244,34 @@ export const heroList = [
     "Durable",
     "Disabler",
     "Nuker"
+    ],
+    counters: {
+    badAgainst: [
+    "Chaos Knight",
+    "Lycan",
+    "Naga Siren",
+    "Phantom Lancer",
+    "Tidehunter",
+    "Underlord"
+    ],
+    goodAgainst: [
+    "Storm Spirit",
+    "Anti-Mage",
+    "Bounty Hunter",
+    "Clinkz",
+    "Earthshaker",
+    "Keeper of the Light",
+    "Tinker",
+    "Riki",
+    "Slark"
+    ],
+    worksWell: [
+    "Lycan",
+    "Sniper",
+    "Luna",
+    "Magnus"
     ]
+    }
     },
     {
     id: 23,
@@ -536,7 +1292,34 @@ export const heroList = [
     "Support",
     "Durable",
     "Nuker"
+    ],
+    counters: {
+    badAgainst: [
+    "Brewmaster",
+    "Doom",
+    "Invoker",
+    "Naga Siren",
+    "Oracle",
+    "Outworld Devourer",
+    "Rubick",
+    "Silencer"
+    ],
+    goodAgainst: [
+    "Axe",
+    "Chaos Knight",
+    "Death Prophet",
+    "Juggernaut",
+    "Legion Commander",
+    "Winter Wyvern"
+    ],
+    worksWell: [
+    "Clockwerk",
+    "Crystal Maiden",
+    "Keeper of the Light",
+    "Pudge",
+    "Storm Spirit"
     ]
+    }
     },
     {
     id: 24,
@@ -559,7 +1342,40 @@ export const heroList = [
     "Initiator",
     "Escape",
     "Disabler"
+    ],
+    counters: {
+    badAgainst: [
+    "Troll Warlord",
+    "Night Stalker",
+    "Huskar",
+    "Ursa",
+    "Silencer",
+    "Lifestealer",
+    "Juggernaut",
+    "Meepo",
+    "Bloodseeker",
+    "Viper",
+    "Necrophos"
+    ],
+    goodAgainst: [
+    "Templar Assassin",
+    "Phantom Assassin",
+    "Legion Commander",
+    "Monkey King",
+    "Chen"
+    ],
+    worksWell: [
+    "Enigma",
+    "Treant Protector",
+    "Faceless Void",
+    "Warlock",
+    "Lifestealer",
+    "Sven",
+    "Tinker",
+    "Keeper of the Light",
+    "Invoker"
     ]
+    }
     },
     {
     id: 25,
@@ -581,7 +1397,49 @@ export const heroList = [
     "Initiator",
     "Durable",
     "Nuker"
+    ],
+    counters: {
+    badAgainst: [
+    "Abaddon",
+    "Anti-Mage",
+    "Bristleback",
+    "Bounty Hunter",
+    "Dazzle",
+    "Doom",
+    "Legion Commander",
+    "Lifestealer",
+    "Mirana",
+    "Monkey King",
+    "Night Stalker",
+    "Nyx Assassin",
+    "Outworld Devourer",
+    "Slardar",
+    "Slark",
+    "Tidehunter",
+    "Timbersaw",
+    "Venomancer",
+    "Weaver"
+    ],
+    goodAgainst: [
+    "Bloodseeker",
+    "Crystal Maiden",
+    "Drow Ranger",
+    "Luna",
+    "Sniper",
+    "Spectre",
+    "Techies",
+    "Tinker",
+    "Zeus"
+    ],
+    worksWell: [
+    "Techies",
+    "Pugna",
+    "Outworld Devourer",
+    "Lifestealer",
+    "Lion",
+    "Tiny"
     ]
+    }
     },
     {
     id: 26,
@@ -605,7 +1463,34 @@ export const heroList = [
     "Nuker",
     "Escape",
     "Jungler"
+    ],
+    counters: {
+    badAgainst: [
+    "Earth Spirit",
+    "Kunkka",
+    "Phoenix",
+    "Rubick",
+    "Silencer",
+    "Zeus"
+    ],
+    goodAgainst: [
+    "Broodmother",
+    "Meepo",
+    "Nature's Prophet",
+    "Phantom Assassin",
+    "Slark",
+    "Templar Assassin"
+    ],
+    worksWell: [
+    "Crystal Maiden",
+    "Keeper of the Light",
+    "Tidehunter",
+    "Tiny",
+    "Monkey King",
+    "Warlock",
+    "Earthshaker"
     ]
+    }
     },
     {
     id: 27,
@@ -628,7 +1513,33 @@ export const heroList = [
     "Initiator",
     "Disabler",
     "Escape"
+    ],
+    counters: {
+    badAgainst: [
+    "Oracle",
+    "Abaddon",
+    "Phantom Lancer",
+    "Meepo"
+    ],
+    goodAgainst: [
+    "Riki",
+    "Clinkz",
+    "Bounty Hunter",
+    "Weaver",
+    "Shadow Fiend",
+    "Alchemist",
+    "Legion Commander"
+    ],
+    worksWell: [
+    "Bounty Hunter",
+    "Vengeful Spirit",
+    "Shadow Fiend",
+    "Alchemist",
+    "Lifestealer",
+    "Phantom Assassin",
+    "Templar Assassin"
     ]
+    }
     },
     {
     id: 28,
@@ -651,7 +1562,37 @@ export const heroList = [
     "Disabler",
     "Durable",
     "Escape"
+    ],
+    counters: {
+    badAgainst: [
+    "Clockwerk",
+    "Ember Spirit",
+    "Outworld Devourer",
+    "Enigma",
+    "Invoker",
+    "Medusa",
+    "Meepo",
+    "Phoenix",
+    "Razor",
+    "Treant Protector",
+    "Underlord",
+    "Undying"
+    ],
+    goodAgainst: [
+    "Anti-Mage",
+    "Clinkz",
+    "Nature's Prophet",
+    "Tinker",
+    "Ursa"
+    ],
+    worksWell: [
+    "Bloodseeker",
+    "Bounty Hunter",
+    "Io",
+    "Lifestealer",
+    "Dark Seer"
     ]
+    }
     },
     {
     id: 29,
@@ -674,7 +1615,46 @@ export const heroList = [
     "Initiator",
     "Durable",
     "Nuker"
+    ],
+    counters: {
+    badAgainst: [
+    "Clockwerk",
+    "Enchantress",
+    "Lifestealer",
+    "Phantom Assassin",
+    "Razor",
+    "Omniknight",
+    "Sniper",
+    "Spectre",
+    "Troll Warlord",
+    "Venomancer",
+    "Winter Wyvern",
+    "Wraith King"
+    ],
+    goodAgainst: [
+    "Anti-Mage",
+    "Broodmother",
+    "Chaos Knight",
+    "Chen",
+    "Death Prophet",
+    "Doom",
+    "Meepo",
+    "Pangolier",
+    "Phantom Lancer",
+    "Warlock"
+    ],
+    worksWell: [
+    "Crystal Maiden",
+    "Dark Seer",
+    "Enigma",
+    "Io",
+    "Lion",
+    "Magnus",
+    "Oracle",
+    "Shadow Shaman",
+    "Troll Warlord"
     ]
+    }
     },
     {
     id: 30,
@@ -696,7 +1676,31 @@ export const heroList = [
     "Durable",
     "Disabler",
     "Nuker"
+    ],
+    counters: {
+    badAgainst: [
+    "Disruptor",
+    "Enigma",
+    "Luna",
+    "Outworld Devourer",
+    "Razor",
+    "Rubick",
+    "Silencer",
+    "Slark",
+    "Sniper",
+    "Ursa",
+    "Weaver"
+    ],
+    goodAgainst: [
+    "Batrider",
+    "Slardar",
+    "Windranger"
+    ],
+    worksWell: [
+    "Underlord",
+    "Earthshaker"
     ]
+    }
     },
     {
     id: 31,
@@ -717,7 +1721,45 @@ export const heroList = [
     "Nuker",
     "Durable",
     "Escape"
+    ],
+    counters: {
+    badAgainst: [
+    "Bane",
+    "Doom",
+    "Ember Spirit",
+    "Faceless Void",
+    "Invoker",
+    "Necrophos",
+    "Outworld Devourer",
+    "Pangolier",
+    "Pugna",
+    "Skywrath Mage",
+    "Silencer",
+    "Storm Spirit",
+    "Zeus"
+    ],
+    goodAgainst: [
+    "Broodmother",
+    "Chaos Knight",
+    "Chen",
+    "Meepo",
+    "Monkey King",
+    "Nature's Prophet",
+    "Phantom Assassin",
+    "Phantom Lancer",
+    "Razor",
+    "Slark",
+    "Terrorblade",
+    "Treant Protector"
+    ],
+    worksWell: [
+    "Bounty Hunter",
+    "Crystal Maiden",
+    "Enigma",
+    "Magnus",
+    "Faceless Void"
     ]
+    }
     },
     {
     id: 32,
@@ -741,7 +1783,31 @@ export const heroList = [
     "Initiator",
     "Durable",
     "Disabler"
+    ],
+    counters: {
+    badAgainst: [
+    "Bristleback",
+    "Juggernaut",
+    "Lifestealer",
+    "Lion",
+    "Necrophos",
+    "Slardar",
+    "Viper"
+    ],
+    goodAgainst: [
+    "Broodmother",
+    "Meepo",
+    "Naga Siren"
+    ],
+    worksWell: [
+    "Earthshaker",
+    "Io",
+    "Magnus",
+    "Slardar",
+    "Tidehunter",
+    "Pudge"
     ]
+    }
     },
     {
     id: 33,
@@ -764,7 +1830,33 @@ export const heroList = [
     "Durable",
     "Disabler",
     "Escape"
+    ],
+    counters: {
+    badAgainst: [
+    "Nature's Prophet",
+    "Phantom Lancer",
+    "Rubick",
+    "Slardar",
+    "Timbersaw",
+    "Venomancer",
+    "Viper"
+    ],
+    goodAgainst: [
+    "Spirit Breaker",
+    "Anti-Mage",
+    "Lycan",
+    "Storm Spirit",
+    "Drow Ranger"
+    ],
+    worksWell: [
+    "Keeper of the Light",
+    "Crystal Maiden",
+    "Mirana",
+    "Pudge",
+    "Sven",
+    "Warlock"
     ]
+    }
     },
     {
     id: 34,
@@ -785,7 +1877,39 @@ export const heroList = [
     "Initiator",
     "Disabler",
     "Nuker"
+    ],
+    counters: {
+    badAgainst: [
+    "Anti-Mage",
+    "Disruptor",
+    "Earth Spirit",
+    "Earthshaker",
+    "Phantom Lancer",
+    "Razor",
+    "Techies"
+    ],
+    goodAgainst: [
+    "Bane",
+    "Bloodseeker",
+    "Crystal Maiden",
+    "Legion Commander",
+    "Pugna",
+    "Shadow Fiend",
+    "Sniper",
+    "Venomancer",
+    "Viper"
+    ],
+    worksWell: [
+    "Omniknight",
+    "Axe",
+    "Juggernaut",
+    "Legion Commander",
+    "Lifestealer",
+    "Tidehunter",
+    "Tiny",
+    "Meepo"
     ]
+    }
     },
     {
     id: 35,
@@ -808,7 +1932,42 @@ export const heroList = [
     "Nuker",
     "Disabler",
     "Escape"
+    ],
+    counters: {
+    badAgainst: [
+    "Bloodseeker",
+    "Io",
+    "Kunkka",
+    "Nature's Prophet",
+    "Spectre",
+    "Sniper",
+    "Treant Protector",
+    "Winter Wyvern",
+    "Rubick",
+    "Shadow Fiend",
+    "Visage",
+    "Ursa"
+    ],
+    goodAgainst: [
+    "Drow Ranger",
+    "Faceless Void",
+    "Juggernaut",
+    "Legion Commander",
+    "Sven",
+    "Templar Assassin"
+    ],
+    worksWell: [
+    "Disruptor",
+    "Dragon Knight",
+    "Elder Titan",
+    "Leshrac",
+    "Mirana",
+    "Riki",
+    "Rubick",
+    "Timbersaw",
+    "Vengeful Spirit"
     ]
+    }
     },
     {
     id: 36,
@@ -830,7 +1989,34 @@ export const heroList = [
     "Durable",
     "Disabler",
     "Nuker"
+    ],
+    counters: {
+    badAgainst: [
+    "Alchemist",
+    "Earthshaker",
+    "Gyrocopter",
+    "Luna",
+    "Necrophos",
+    "Silencer"
+    ],
+    goodAgainst: [
+    "Spectre",
+    "Ogre Magi",
+    "Centaur Warrunner",
+    "Winter Wyvern",
+    "Sven",
+    "Bristleback"
+    ],
+    worksWell: [
+    "Broodmother",
+    "Crystal Maiden",
+    "Naga Siren",
+    "Warlock",
+    "Winter Wyvern",
+    "Lich",
+    "Witch Doctor"
     ]
+    }
     },
     {
     id: 37,
@@ -853,7 +2039,33 @@ export const heroList = [
     "Durable",
     "Disabler",
     "Initiator"
+    ],
+    counters: {
+    badAgainst: [
+    "Anti-Mage",
+    "Chaos Knight",
+    "Invoker",
+    "Lion",
+    "Phantom Lancer",
+    "Riki",
+    "Slark",
+    "Terrorblade",
+    "Weaver"
+    ],
+    goodAgainst: [
+    "Axe",
+    "Bloodseeker",
+    "Doom",
+    "Legion Commander",
+    "Necrophos",
+    "Techies"
+    ],
+    worksWell: [
+    "Ursa",
+    "Troll Warlord",
+    "Bloodseeker"
     ]
+    }
     },
     {
     id: 38,
@@ -874,7 +2086,58 @@ export const heroList = [
     "Carry",
     "Escape",
     "Nuker"
+    ],
+    counters: {
+    badAgainst: [
+    "Axe",
+    "Bane",
+    "Bloodseeker",
+    "Disruptor",
+    "Doom",
+    "Drow Ranger",
+    "Grimstroke",
+    "Legion Commander",
+    "Meepo",
+    "Night Stalker",
+    "Outworld Devourer",
+    "Phantom Assassin",
+    "Slardar",
+    "Slark",
+    "Shadow Demon",
+    "Templar Assassin",
+    "Troll Warlord",
+    "Viper"
+    ],
+    goodAgainst: [
+    "Ancient Apparition",
+    "Abaddon",
+    "Arc Warden",
+    "Clockwerk",
+    "Elder Titan",
+    "Medusa",
+    "Phoenix",
+    "Pugna",
+    "Spectre",
+    "Storm Spirit",
+    "Undying",
+    "Venomancer",
+    "Wraith King",
+    "Zeus"
+    ],
+    worksWell: [
+    "Bane",
+    "Bounty Hunter",
+    "Dazzle",
+    "Dark Seer",
+    "Invoker",
+    "Lion",
+    "Magnus",
+    "Oracle",
+    "Shadow Demon",
+    "Slardar",
+    "Treant Protector"
     ]
+    }
     },
     {
     id: 39,
@@ -895,7 +2158,32 @@ export const heroList = [
     "Carry",
     "Escape",
     "Nuker"
+    ],
+    counters: {
+    badAgainst: [
+    "Anti-Mage",
+    "Bristleback",
+    "Meepo",
+    "Naga Siren",
+    "Riki",
+    "Phantom Lancer",
+    "Chaos Knight"
+    ],
+    goodAgainst: [
+    "Mirana",
+    "Terrorblade",
+    "Phoenix",
+    "Sand King",
+    "Sniper",
+    "Templar Assassin",
+    "Drow Ranger",
+    "Enchantress"
+    ],
+    worksWell: [
+    "Ancient Apparition",
+    "Drow Ranger"
     ]
+    }
     },
     {
     id: 40,
@@ -918,7 +2206,57 @@ export const heroList = [
     "Jungler",
     "Nuker",
     "Initiator"
+    ],
+    counters: {
+    badAgainst: [
+    "Abaddon",
+    "Dazzle",
+    "Ember Spirit",
+    "Faceless Void",
+    "Medusa",
+    "Morphling",
+    "Omniknight",
+    "Storm Spirit",
+    "Techies",
+    "Tinker",
+    "Troll Warlord",
+    "Underlord",
+    "Wraith King"
+    ],
+    goodAgainst: [
+    "Anti-Mage",
+    "Clinkz",
+    "Huskar",
+    "Lycan",
+    "Meepo",
+    "Mirana",
+    "Pangolier",
+    "Phoenix",
+    "Queen of Pain",
+    "Riki",
+    "Slark",
+    "Sniper",
+    "Timbersaw",
+    "Weaver",
+    "Windranger"
+    ],
+    worksWell: [
+    "Ancient Apparition",
+    "Batrider",
+    "Bounty Hunter",
+    "Earthshaker",
+    "Earth Spirit",
+    "Invoker",
+    "Jakiro",
+    "Magnus",
+    "Nature's Prophet",
+    "Phoenix",
+    "Queen of Pain",
+    "Venomancer",
+    "Warlock",
+    "Zeus"
     ]
+    }
     },
     {
     id: 41,
@@ -938,7 +2276,32 @@ export const heroList = [
     roles: [
     "Escape",
     "Nuker"
+    ],
+    counters: {
+    badAgainst: [
+    "Bloodseeker",
+    "Rubick",
+    "Slardar",
+    "Spectre",
+    "Spirit Breaker",
+    "Venomancer",
+    "Viper",
+    "Zeus"
+    ],
+    goodAgainst: [
+    "Sniper",
+    "Nyx Assassin",
+    "Shadow Fiend",
+    "Pudge"
+    ],
+    worksWell: [
+    "Invoker",
+    "Nature's Prophet",
+    "Tinker",
+    "Spectre",
+    "Zeus"
     ]
+    }
     },
     {
     id: 42,
@@ -960,7 +2323,36 @@ export const heroList = [
     "Pusher",
     "Escape",
     "Nuker"
+    ],
+    counters: {
+    badAgainst: [
+    "Bristleback",
+    "Dark Seer",
+    "Dragon Knight",
+    "Legion Commander",
+    "Lina",
+    "Meepo",
+    "Necrophos",
+    "Sven",
+    "Tidehunter",
+    "Timbersaw"
+    ],
+    goodAgainst: [
+    "Ancient Apparition",
+    "Chen",
+    "Drow Ranger",
+    "Enchantress",
+    "Nature's Prophet",
+    "Phantom Assassin",
+    "Sniper",
+    "Treant Protector"
+    ],
+    worksWell: [
+    "Dazzle",
+    "Lifestealer",
+    "Lycan"
     ]
+    }
     },
     {
     id: 43,
@@ -981,7 +2373,29 @@ export const heroList = [
     "Carry",
     "Escape",
     "Pusher"
+    ],
+    counters: {
+    badAgainst: [
+    "Bounty Hunter",
+    "Bloodseeker",
+    "Enchantress",
+    "Lion",
+    "Slardar",
+    "Spirit Breaker",
+    "Treant Protector"
+    ],
+    goodAgainst: [
+    "Anti-Mage",
+    "Ember Spirit",
+    "Huskar",
+    "Nature's Prophet"
+    ],
+    worksWell: [
+    "Drow Ranger",
+    "Omniknight",
+    "Vengeful Spirit"
     ]
+    }
     },
     {
     id: 44,
@@ -1002,7 +2416,39 @@ export const heroList = [
     "Carry",
     "Disabler",
     "Pusher"
+    ],
+    counters: {
+    badAgainst: [
+    "Tinker",
+    "Tusk",
+    "Axe",
+    "Clockwerk",
+    "Huskar",
+    "Lycan",
+    "Riki",
+    "Phantom Lancer",
+    "Pudge",
+    "Chaos Knight",
+    "Nyx Assassin",
+    "Omniknight"
+    ],
+    goodAgainst: [
+    "Ember Spirit",
+    "Juggernaut",
+    "Anti-Mage",
+    "Weaver",
+    "Mirana"
+    ],
+    worksWell: [
+    "Visage",
+    "Windranger",
+    "Vengeful Spirit",
+    "Weaver",
+    "Medusa",
+    "Enigma",
+    "Clockwerk"
     ]
+    }
     },
     {
     id: 45,
@@ -1025,7 +2471,36 @@ export const heroList = [
     "Nuker",
     "Disabler",
     "Initiator"
+    ],
+    counters: {
+    badAgainst: [
+    "Clinkz",
+    "Lion",
+    "Shadow Fiend",
+    "Silencer",
+    "Storm Spirit",
+    "Faceless Void",
+    "Omniknight",
+    "Outworld Devourer",
+    "Riki",
+    "Nyx Assassin",
+    "Kunkka"
+    ],
+    goodAgainst: [
+    "Meepo",
+    "Chaos Knight",
+    "Terrorblade",
+    "Crystal Maiden",
+    "Nature's Prophet",
+    "Phantom Lancer",
+    "Queen of Pain"
+    ],
+    worksWell: [
+    "Magnus",
+    "Keeper of the Light",
+    "Dazzle"
     ]
+    }
     },
     {
     id: 46,
@@ -1048,7 +2523,46 @@ export const heroList = [
     "Disabler",
     "Escape",
     "Durable"
+    ],
+    counters: {
+    badAgainst: [
+    "Abaddon",
+    "Brewmaster",
+    "Earth Spirit",
+    "Night Stalker",
+    "Phoenix",
+    "Pudge",
+    "Shadow Demon",
+    "Silencer",
+    "Vengeful Spirit",
+    "Grimstroke",
+    "Sven"
+    ],
+    goodAgainst: [
+    "Anti-Mage",
+    "Bloodseeker",
+    "Bristleback",
+    "Invoker",
+    "Mirana",
+    "Queen of Pain",
+    "Razor",
+    "Rubick",
+    "Slark",
+    "Sniper",
+    "Weaver"
+    ],
+    worksWell: [
+    "Enigma",
+    "Disruptor",
+    "Jakiro",
+    "Invoker",
+    "Kunkka",
+    "Lich",
+    "Phoenix",
+    "Witch Doctor",
+    "Outworld Devourer"
     ]
+    }
     },
     {
     id: 47,
@@ -1069,7 +2583,35 @@ export const heroList = [
     "Carry",
     "Nuker",
     "Disabler"
+    ],
+    counters: {
+    badAgainst: [
+    "Arc Warden",
+    "Huskar",
+    "Juggernaut",
+    "Lina",
+    "Lifestealer",
+    "Omniknight",
+    "Queen of Pain",
+    "Timbersaw"
+    ],
+    goodAgainst: [
+    "Meepo",
+    "Undying",
+    "Phantom Lancer",
+    "Chaos Knight",
+    "Terrorblade"
+    ],
+    worksWell: [
+    "Bloodseeker",
+    "Earthshaker",
+    "Enigma",
+    "Disruptor",
+    "Magnus",
+    "Rubick",
+    "Warlock"
     ]
+    }
     },
     {
     id: 48,
@@ -1090,7 +2632,33 @@ export const heroList = [
     "Carry",
     "Pusher",
     "Escape"
+    ],
+    counters: {
+    badAgainst: [
+    "Axe",
+    "Bane",
+    "Chaos Knight",
+    "Omniknight",
+    "Outworld Devourer",
+    "Ursa"
+    ],
+    goodAgainst: [
+    "Dark Willow",
+    "Invoker",
+    "Keeper of the Light",
+    "Necrophos",
+    "Phoenix",
+    "Templar Assassin",
+    "Zeus"
+    ],
+    worksWell: [
+    "Crystal Maiden",
+    "Dazzle",
+    "Shadow Shaman",
+    "Venomancer",
+    "Zeus"
     ]
+    }
     },
     {
     id: 49,
@@ -1112,7 +2680,26 @@ export const heroList = [
     "Pusher",
     "Jungler",
     "Durable"
+    ],
+    counters: {
+    badAgainst: [
+    "Phantom Assassin",
+    "Faceless Void",
+    "Legion Commander",
+    "Slark",
+    "Tinker"
+    ],
+    goodAgainst: [
+    "Nature's Prophet",
+    "Silencer"
+    ],
+    worksWell: [
+    "Beastmaster",
+    "Lycan",
+    "Ogre Magi",
+    "Omniknight"
     ]
+    }
     },
     {
     id: 50,
@@ -1133,7 +2720,40 @@ export const heroList = [
     "Carry",
     "Nuker",
     "Pusher"
+    ],
+    counters: {
+    badAgainst: [
+    "Arc Warden",
+    "Bristleback",
+    "Broodmother",
+    "Juggernaut",
+    "Lina",
+    "Meepo",
+    "Phantom Lancer",
+    "Pudge",
+    "Sniper",
+    "Slark",
+    "Techies",
+    "Tinker",
+    "Zeus"
+    ],
+    goodAgainst: [
+    "Chen",
+    "Enchantress",
+    "Legion Commander",
+    "Lifestealer",
+    "Pugna",
+    "Bane",
+    "Necrophos"
+    ],
+    worksWell: [
+    "Crystal Maiden",
+    "Keeper of the Light",
+    "Night Stalker",
+    "Vengeful Spirit",
+    "Shadow Demon"
     ]
+    }
     },
     {
     id: 51,
@@ -1154,7 +2774,40 @@ export const heroList = [
     "Carry",
     "Disabler",
     "Durable"
+    ],
+    counters: {
+    badAgainst: [
+    "Anti-Mage",
+    "Arc Warden",
+    "Invoker",
+    "Meepo",
+    "Nyx Assassin",
+    "Outworld Devourer",
+    "Phantom Lancer",
+    "Slark",
+    "Sniper"
+    ],
+    goodAgainst: [
+    "Enchantress",
+    "Lifestealer",
+    "Morphling",
+    "Necrophos",
+    "Sven",
+    "Undying",
+    "Slardar",
+    "Enigma",
+    "Axe",
+    "Spectre"
+    ],
+    worksWell: [
+    "Earthshaker",
+    "Axe",
+    "Drow Ranger",
+    "Keeper of the Light",
+    "Shadow Demon",
+    "Witch Doctor"
     ]
+    }
     },
     {
     id: 52,
@@ -1178,7 +2831,35 @@ export const heroList = [
     "Disabler",
     "Initiator",
     "Pusher"
+    ],
+    counters: {
+    badAgainst: [
+    "Lich",
+    "Axe",
+    "Earthshaker",
+    "Ember Spirit",
+    "Kunkka",
+    "Pangolier",
+    "Sven",
+    "Terrorblade",
+    "Winter Wyvern"
+    ],
+    goodAgainst: [
+    "Anti-Mage",
+    "Legion Commander",
+    "Phantom Lancer",
+    "Phoenix",
+    "Queen of Pain",
+    "Spirit Breaker",
+    "Storm Spirit"
+    ],
+    worksWell: [
+    "Disruptor",
+    "Kunkka",
+    "Silencer",
+    "Sven"
     ]
+    }
     },
     {
     id: 53,
@@ -1201,7 +2882,37 @@ export const heroList = [
     "Escape",
     "Nuker",
     "Disabler"
+    ],
+    counters: {
+    badAgainst: [
+    "Abaddon",
+    "Arc Warden",
+    "Bloodseeker",
+    "Lina",
+    "Lycan",
+    "Meepo",
+    "Night Stalker",
+    "Puck",
+    "Slark",
+    "Windranger"
+    ],
+    goodAgainst: [
+    "Crystal Maiden",
+    "Drow Ranger",
+    "Invoker",
+    "Techies",
+    "Witch Doctor"
+    ],
+    worksWell: [
+    "Axe",
+    "Bane",
+    "Batrider",
+    "Clockwerk",
+    "Shadow Demon",
+    "Sven",
+    "Underlord"
     ]
+    }
     },
     {
     id: 54,
@@ -1223,7 +2934,60 @@ export const heroList = [
     "Escape",
     "Disabler",
     "Initiator"
+    ],
+    counters: {
+    badAgainst: [
+    "Batrider",
+    "Beastmaster",
+    "Bounty Hunter",
+    "Brewmaster",
+    "Clockwerk",
+    "Disruptor",
+    "Earth Spirit",
+    "Enigma",
+    "Huskar",
+    "Keeper of the Light",
+    "Lina",
+    "Magnus",
+    "Pangolier",
+    "Phantom Assassin",
+    "Pudge",
+    "Queen of Pain",
+    "Slardar",
+    "Spectre",
+    "Spirit Breaker",
+    "Storm Spirit",
+    "Techies",
+    "Timbersaw",
+    "Vengeful Spirit",
+    "Venomancer",
+    "Viper",
+    "Visage",
+    "Windranger"
+    ],
+    goodAgainst: [
+    "Chen",
+    "Drow Ranger",
+    "Nature's Prophet",
+    "Shadow Fiend",
+    "Silencer",
+    "Skywrath Mage",
+    "Sniper",
+    "Witch Doctor"
+    ],
+    worksWell: [
+    "Beastmaster",
+    "Crystal Maiden",
+    "Dark Seer",
+    "Elder Titan",
+    "Keeper of the Light",
+    "Magnus",
+    "Nature's Prophet",
+    "Oracle",
+    "Puck",
+    "Treant Protector"
     ]
+    }
     },
     {
     id: 55,
@@ -1246,7 +3010,37 @@ export const heroList = [
     "Durable",
     "Nuker",
     "Disabler"
+    ],
+    counters: {
+    badAgainst: [
+    "Ancient Apparition",
+    "Anti-Mage",
+    "Arc Warden",
+    "Earth Spirit",
+    "Ember Spirit",
+    "Elder Titan",
+    "Lion",
+    "Meepo",
+    "Mirana",
+    "Outworld Devourer",
+    "Rubick",
+    "Skywrath Mage"
+    ],
+    goodAgainst: [
+    "Bloodseeker",
+    "Clockwerk",
+    "Drow Ranger",
+    "Lone Druid",
+    "Phantom Assassin",
+    "Razor",
+    "Sniper"
+    ],
+    worksWell: [
+    "Drow Ranger",
+    "Tiny",
+    "Pugna"
     ]
+    }
     },
     {
     id: 56,
@@ -1270,7 +3064,41 @@ export const heroList = [
     "Disabler",
     "Initiator",
     "Escape"
+    ],
+    counters: {
+    badAgainst: [
+    "Axe",
+    "Enchantress",
+    "Earthshaker",
+    "Huskar",
+    "Lion",
+    "Outworld Devourer",
+    "Timbersaw",
+    "Zeus"
+    ],
+    goodAgainst: [
+    "Omniknight",
+    "Nature's Prophet",
+    "Legion Commander",
+    "Templar Assassin",
+    "Crystal Maiden",
+    "Chen",
+    "Winter Wyvern",
+    "Bounty Hunter",
+    "Viper",
+    "Night Stalker",
+    "Enigma",
+    "Magnus",
+    "Arc Warden"
+    ],
+    worksWell: [
+    "Dazzle",
+    "Disruptor",
+    "Kunkka",
+    "Razor",
+    "Tidehunter"
     ]
+    }
     },
     {
     id: 57,
@@ -1292,7 +3120,38 @@ export const heroList = [
     "Nuker",
     "Initiator",
     "Escape"
+    ],
+    counters: {
+    badAgainst: [
+    "Bounty Hunter",
+    "Slardar",
+    "Bloodseeker",
+    "Lifestealer",
+    "Juggernaut",
+    "Night Stalker",
+    "Visage",
+    "Arc Warden"
+    ],
+    goodAgainst: [
+    "Puck",
+    "Crystal Maiden",
+    "Sniper",
+    "Enigma",
+    "Phoenix",
+    "Ember Spirit",
+    "Storm Spirit",
+    "Medusa",
+    "Windranger",
+    "Tinker",
+    "Outworld Devourer"
+    ],
+    worksWell: [
+    "Invoker",
+    "Legion Commander",
+    "Lifestealer",
+    "Bloodseeker"
     ]
+    }
     },
     {
     id: 58,
@@ -1316,7 +3175,51 @@ export const heroList = [
     "Durable",
     "Escape",
     "Initiator"
+    ],
+    counters: {
+    badAgainst: [
+    "Anti-Mage",
+    "Grimstroke",
+    "Beastmaster",
+    "Bloodseeker",
+    "Centaur Warrunner",
+    "Doom",
+    "Faceless Void",
+    "Medusa",
+    "Naga Siren",
+    "Necrophos",
+    "Outworld Devourer",
+    "Queen of Pain",
+    "Spirit Breaker",
+    "Storm Spirit",
+    "Treant Protector",
+    "Vengeful Spirit",
+    "Puck"
+    ],
+    goodAgainst: [
+    "Arc Warden",
+    "Broodmother",
+    "Meepo",
+    "Monkey King",
+    "Phantom Lancer",
+    "Terrorblade",
+    "Timbersaw",
+    "Visage",
+    "Weaver"
+    ],
+    worksWell: [
+    "Abaddon",
+    "Batrider",
+    "Brewmaster",
+    "Clockwerk",
+    "Drow Ranger",
+    "Earth Spirit",
+    "Jakiro",
+    "Medusa",
+    "Undying",
+    "Weaver"
     ]
+    }
     },
     {
     id: 59,
@@ -1336,7 +3239,44 @@ export const heroList = [
     roles: [
     "Carry",
     "Escape"
+    ],
+    counters: {
+    badAgainst: [
+    "Axe",
+    "Bane",
+    "Broodmother",
+    "Centaur Warrunner",
+    "Dragon Knight",
+    "Lina",
+    "Lion",
+    "Morphling",
+    "Omniknight",
+    "Phoenix",
+    "Puck",
+    "Razor",
+    "Skywrath Mage",
+    "Spectre",
+    "Timbersaw",
+    "Tinker",
+    "Viper"
+    ],
+    goodAgainst: [
+    "Anti-Mage",
+    "Crystal Maiden",
+    "Dazzle",
+    "Nature's Prophet",
+    "Riki",
+    "Sniper"
+    ],
+    worksWell: [
+    "Ancient Apparition",
+    "Beastmaster",
+    "Magnus",
+    "Omniknight",
+    "Slardar",
+    "Vengeful Spirit"
     ]
+    }
     },
     {
     id: 60,
@@ -1358,7 +3298,59 @@ export const heroList = [
     "Escape",
     "Pusher",
     "Nuker"
+    ],
+    counters: {
+    badAgainst: [
+    "Axe",
+    "Bristleback",
+    "Centaur Warrunner",
+    "Dragon Knight",
+    "Earthshaker",
+    "Ember Spirit",
+    "Gyrocopter",
+    "Kunkka",
+    "Legion Commander",
+    "Leshrac",
+    "Meepo",
+    "Magnus",
+    "Pangolier",
+    "Phoenix",
+    "Puck",
+    "Sand King",
+    "Storm Spirit",
+    "Sven",
+    "Witch Doctor"
+    ],
+    goodAgainst: [
+    "Arc Warden",
+    "Bounty Hunter",
+    "Chaos Knight",
+    "Clockwerk",
+    "Disruptor",
+    "Lifestealer",
+    "Lone Druid",
+    "Slark",
+    "Templar Assassin",
+    "Treant Protector",
+    "Ursa",
+    "Viper",
+    "Visage",
+    "Wraith King"
+    ],
+    worksWell: [
+    "Bane",
+    "Crystal Maiden",
+    "Dazzle",
+    "Jakiro",
+    "Keeper of the Light",
+    "Oracle",
+    "Shadow Shaman",
+    "Slardar",
+    "Spirit Breaker",
+    "Undying",
+    "Venomancer"
     ]
+    }
     },
     {
     id: 61,
@@ -1380,7 +3372,37 @@ export const heroList = [
     "Durable",
     "Nuker",
     "Pusher"
+    ],
+    counters: {
+    badAgainst: [
+    "Anti-Mage",
+    "Chaos Knight",
+    "Earth Spirit",
+    "Huskar",
+    "Necrophos",
+    "Outworld Devourer",
+    "Queen of Pain",
+    "Slark",
+    "Sniper",
+    "Viper",
+    "Weaver"
+    ],
+    goodAgainst: [
+    "Bristleback",
+    "Lifestealer",
+    "Monkey King",
+    "Phantom Assassin",
+    "Spirit Breaker",
+    "Troll Warlord"
+    ],
+    worksWell: [
+    "Death Prophet",
+    "Shadow Demon",
+    "Outworld Devourer",
+    "Bane",
+    "Naga Siren"
     ]
+    }
     },
     {
     id: 62,
@@ -1401,7 +3423,41 @@ export const heroList = [
     "Carry",
     "Escape",
     "Disabler"
+    ],
+    counters: {
+    badAgainst: [
+    "Axe",
+    "Bounty Hunter",
+    "Bristleback",
+    "Luna",
+    "Omniknight",
+    "Sven",
+    "Legion Commander",
+    "Faceless Void",
+    "Razor",
+    "Slardar",
+    "Zeus"
+    ],
+    goodAgainst: [
+    "Arc Warden",
+    "Chen",
+    "Crystal Maiden",
+    "Drow Ranger",
+    "Meepo",
+    "Skywrath Mage",
+    "Sniper",
+    "Ursa"
+    ],
+    worksWell: [
+    "Faceless Void",
+    "Lifestealer",
+    "Meepo",
+    "Dark Seer",
+    "Magnus",
+    "Enigma",
+    "Axe"
     ]
+    }
     },
     {
     id: 63,
@@ -1421,7 +3477,41 @@ export const heroList = [
     roles: [
     "Carry",
     "Nuker"
+    ],
+    counters: {
+    badAgainst: [
+    "Axe",
+    "Bane",
+    "Bounty Hunter",
+    "Disruptor",
+    "Doom",
+    "Dragon Knight",
+    "Night Stalker",
+    "Pugna",
+    "Sniper",
+    "Spirit Breaker",
+    "Tinker",
+    "Ursa",
+    "Viper",
+    "Zeus"
+    ],
+    goodAgainst: [
+    "Clockwerk",
+    "Meepo",
+    "Nature's Prophet",
+    "Silencer",
+    "Slark"
+    ],
+    worksWell: [
+    "Bane",
+    "Clockwerk",
+    "Enigma",
+    "Legion Commander",
+    "Magnus",
+    "Slardar",
+    "Vengeful Spirit"
     ]
+    }
     },
     {
     id: 64,
@@ -1443,7 +3533,44 @@ export const heroList = [
     "Escape",
     "Disabler",
     "Nuker"
+    ],
+    counters: {
+    badAgainst: [
+    "Ancient Apparition",
+    "Axe",
+    "Bloodseeker",
+    "Centaur Warrunner",
+    "Chaos Knight",
+    "Disruptor",
+    "Earthshaker",
+    "Meepo",
+    "Omniknight",
+    "Phantom Lancer",
+    "Puck",
+    "Tiny"
+    ],
+    goodAgainst: [
+    "Arc Warden",
+    "Drow Ranger",
+    "Luna",
+    "Medusa",
+    "Sniper",
+    "Spectre",
+    "Storm Spirit",
+    "Templar Assassin",
+    "Warlock"
+    ],
+    worksWell: [
+    "Bane",
+    "Earthshaker",
+    "Magnus",
+    "Kunkka",
+    "Omniknight",
+    "Skywrath Mage",
+    "Underlord",
+    "Witch Doctor"
     ]
+    }
     },
     {
     id: 65,
@@ -1463,7 +3590,44 @@ export const heroList = [
     roles: [
     "Carry",
     "Nuker"
+    ],
+    counters: {
+    badAgainst: [
+    "Axe",
+    "Bloodseeker",
+    "Bounty Hunter",
+    "Centaur Warrunner",
+    "Clockwerk",
+    "Invoker",
+    "Lifestealer",
+    "Omniknight",
+    "Phantom Assassin",
+    "Phantom Lancer",
+    "Pudge",
+    "Slark",
+    "Spectre",
+    "Spirit Breaker",
+    "Storm Spirit",
+    "Tusk",
+    "Viper",
+    "Weaver"
+    ],
+    goodAgainst: [
+    "Drow Ranger",
+    "Earthshaker",
+    "Enigma",
+    "Medusa",
+    "Silencer",
+    "Shadow Fiend",
+    "Undying"
+    ],
+    worksWell: [
+    "Drow Ranger",
+    "Ogre Magi",
+    "Lich",
+    "Bloodseeker"
     ]
+    }
     },
     {
     id: 66,
@@ -1484,7 +3648,50 @@ export const heroList = [
     "Carry",
     "Durable",
     "Escape"
+    ],
+    counters: {
+    badAgainst: [
+    "Anti-Mage",
+    "Lycan",
+    "Necrophos",
+    "Lion",
+    "Meepo",
+    "Omniknight",
+    "Juggernaut",
+    "Pugna",
+    "Riki",
+    "Shadow Shaman",
+    "Storm Spirit",
+    "Terrorblade",
+    "Undying",
+    "Viper",
+    "Winter Wyvern"
+    ],
+    goodAgainst: [
+    "Ancient Apparition",
+    "Crystal Maiden",
+    "Drow Ranger",
+    "Sniper",
+    "Lina",
+    "Magnus",
+    "Nature's Prophet",
+    "Pudge",
+    "Rubick",
+    "Tinker",
+    "Windranger"
+    ],
+    worksWell: [
+    "Treant Protector",
+    "Bounty Hunter",
+    "Chen",
+    "Bloodseeker",
+    "Earthshaker",
+    "Magnus",
+    "Enigma",
+    "Outworld Devourer",
+    "Warlock"
     ]
+    }
     },
     {
     id: 67,
@@ -1504,7 +3711,29 @@ export const heroList = [
     roles: [
     "Carry",
     "Escape"
+    ],
+    counters: {
+    badAgainst: [
+    "Arc Warden",
+    "Venomancer",
+    "Viper",
+    "Dragon Knight",
+    "Pudge",
+    "Huskar"
+    ],
+    goodAgainst: [
+    "Shadow Fiend",
+    "Lina",
+    "Huskar",
+    "Luna",
+    "Necrophos",
+    "Storm Spirit"
+    ],
+    worksWell: [
+    "Slardar",
+    "Drow Ranger"
     ]
+    }
     },
     {
     id: 68,
@@ -1525,7 +3754,41 @@ export const heroList = [
     "Carry",
     "Pusher",
     "Nuker"
+    ],
+    counters: {
+    badAgainst: [
+    "Earth Spirit",
+    "Axe",
+    "Elder Titan",
+    "Ursa",
+    "Lina",
+    "Shadow Shaman",
+    "Ember Spirit",
+    "Dazzle",
+    "Necrophos",
+    "Outworld Devourer",
+    "Razor",
+    "Sven",
+    "Tinker",
+    "Zeus"
+    ],
+    goodAgainst: [
+    "Ancient Apparition",
+    "Chaos Knight",
+    "Viper",
+    "Techies",
+    "Shadow Fiend",
+    "Pudge",
+    "Anti-Mage",
+    "Sniper",
+    "Meepo"
+    ],
+    worksWell: [
+    "Dazzle",
+    "Oracle",
+    "Shadow Demon"
     ]
+    }
     },
     {
     id: 69,
@@ -1547,7 +3810,37 @@ export const heroList = [
     "Pusher",
     "Disabler",
     "Durable"
+    ],
+    counters: {
+    badAgainst: [
+    "Axe",
+    "Bane",
+    "Chaos Knight",
+    "Crystal Maiden",
+    "Lich",
+    "Oracle",
+    "Outworld Devourer",
+    "Razor",
+    "Sniper",
+    "Timbersaw",
+    "Underlord",
+    "Winter Wyvern"
+    ],
+    goodAgainst: [
+    "Anti-Mage",
+    "Huskar",
+    "Juggernaut",
+    "Lifestealer",
+    "Phantom Assassin",
+    "Phoenix",
+    "Sven",
+    "Undying"
+    ],
+    worksWell: [
+    "Legion Commander",
+    "Slardar"
     ]
+    }
     },
     {
     id: 70,
@@ -1569,7 +3862,36 @@ export const heroList = [
     "Jungler",
     "Durable",
     "Disabler"
+    ],
+    counters: {
+    badAgainst: [
+    "Bane",
+    "Lion",
+    "Riki",
+    "Templar Assassin",
+    "Viper",
+    "Weaver",
+    "Windranger"
+    ],
+    goodAgainst: [
+    "Lifestealer",
+    "Lina",
+    "Timbersaw",
+    "Huskar",
+    "Medusa",
+    "Axe",
+    "Underlord"
+    ],
+    worksWell: [
+    "Bristleback",
+    "Dazzle",
+    "Io",
+    "Disruptor",
+    "Shadow Shaman",
+    "Lion",
+    "Bane"
     ]
+    }
     },
     {
     id: 71,
@@ -1592,7 +3914,36 @@ export const heroList = [
     "Disabler",
     "Nuker",
     "Escape"
+    ],
+    counters: {
+    badAgainst: [
+    "Anti-Mage",
+    "Nyx Assassin",
+    "Phantom Lancer",
+    "Spirit Breaker",
+    "Tidehunter",
+    "Viper"
+    ],
+    goodAgainst: [
+    "Batrider",
+    "Clockwerk",
+    "Faceless Void",
+    "Huskar",
+    "Meepo",
+    "Monkey King",
+    "Morphling"
+    ],
+    worksWell: [
+    "Techies",
+    "Shadow Fiend",
+    "Slardar",
+    "Drow Ranger",
+    "Mirana",
+    "Bloodseeker",
+    "Crystal Maiden",
+    "Weaver"
     ]
+    }
     },
     {
     id: 72,
@@ -1615,7 +3966,29 @@ export const heroList = [
     "Initiator",
     "Pusher",
     "Disabler"
+    ],
+    counters: {
+    badAgainst: [
+    "Legion Commander",
+    "Slark",
+    "Rubick",
+    "Anti-Mage",
+    "Huskar",
+    "Oracle",
+    "Terrorblade",
+    "Sniper"
+    ],
+    goodAgainst: [
+    "Axe",
+    "Templar Assassin",
+    "Techies",
+    "Magnus"
+    ],
+    worksWell: [
+    "Ancient Apparition",
+    "Undying"
     ]
+    }
     },
     {
     id: 73,
@@ -1637,7 +4010,56 @@ export const heroList = [
     "Durable",
     "Initiator",
     "Disabler"
+    ],
+    counters: {
+    badAgainst: [
+    "Broodmother",
+    "Chaos Knight",
+    "Invoker",
+    "Lifestealer",
+    "Phantom Lancer",
+    "Rubick",
+    "Terrorblade",
+    "Weaver",
+    "Windranger"
+    ],
+    goodAgainst: [
+    "Abaddon",
+    "Axe",
+    "Bristleback",
+    "Dragon Knight",
+    "Earthshaker",
+    "Huskar",
+    "Mars",
+    "Monkey King",
+    "Necrophos",
+    "Razor",
+    "Slark",
+    "Spectre",
+    "Templar Assassin",
+    "Tidehunter",
+    "Venomancer",
+    "Visage",
+    "Zeus"
+    ],
+    worksWell: [
+    "Abaddon",
+    "Beastmaster",
+    "Clockwerk",
+    "Crystal Maiden",
+    "Dark Seer",
+    "Dazzle",
+    "Drow Ranger",
+    "Earth Spirit",
+    "Faceless Void",
+    "Lich",
+    "Luna",
+    "Necrophos",
+    "Ogre Magi",
+    "Slardar",
+    "Treant Protector"
     ]
+    }
     },
     {
     id: 74,
@@ -1657,7 +4079,35 @@ export const heroList = [
     roles: [
     "Carry",
     "Escape"
+    ],
+    counters: {
+    badAgainst: [
+    "Axe",
+    "Bloodseeker",
+    "Drow Ranger",
+    "Faceless Void",
+    "Night Stalker",
+    "Nyx Assassin",
+    "Skywrath Mage",
+    "Slardar",
+    "Zeus"
+    ],
+    goodAgainst: [
+    "Ancient Apparition",
+    "Brewmaster",
+    "Lifestealer",
+    "Undying",
+    "Pudge",
+    "Sven",
+    "Ursa",
+    "Wraith King"
+    ],
+    worksWell: [
+    "Crystal Maiden",
+    "Alchemist",
+    "Vengeful Spirit"
     ]
+    }
     },
     {
     id: 75,
@@ -1678,7 +4128,34 @@ export const heroList = [
     "Support",
     "Disabler",
     "Nuker"
+    ],
+    counters: {
+    badAgainst: [
+    "Anti-Mage",
+    "Brewmaster",
+    "Mirana",
+    "Oracle",
+    "Phantom Lancer",
+    "Phoenix",
+    "Terrorblade",
+    "Viper",
+    "Weaver"
+    ],
+    goodAgainst: [
+    "Abaddon",
+    "Alchemist",
+    "Chen",
+    "Dazzle",
+    "Death Prophet",
+    "Huskar"
+    ],
+    worksWell: [
+    "Faceless Void",
+    "Meepo",
+    "Shadow Demon",
+    "Slark"
     ]
+    }
     },
     {
     id: 76,
@@ -1700,7 +4177,34 @@ export const heroList = [
     "Disabler",
     "Nuker",
     "Durable"
+    ],
+    counters: {
+    badAgainst: [
+    "Rubick",
+    "Pudge",
+    "Slark",
+    "Tidehunter"
+    ],
+    goodAgainst: [
+    "Faceless Void",
+    "Legion Commander",
+    "Medusa",
+    "Phantom Assassin",
+    "Shadow Fiend",
+    "Troll Warlord",
+    "Weaver"
+    ],
+    worksWell: [
+    "Grimstroke",
+    "Mirana",
+    "Omniknight",
+    "Doom",
+    "Pudge",
+    "Razor",
+    "Skywrath Mage",
+    "Kunkka"
     ]
+    }
     },
     {
     id: 77,
@@ -1722,7 +4226,36 @@ export const heroList = [
     "Jungler",
     "Disabler",
     "Escape"
+    ],
+    counters: {
+    badAgainst: [
+    "Abaddon",
+    "Kunkka",
+    "Legion Commander",
+    "Nyx Assassin",
+    "Oracle",
+    "Tidehunter",
+    "Ursa",
+    "Vengeful Spirit",
+    "Venomancer",
+    "Weaver",
+    "Slark"
+    ],
+    goodAgainst: [
+    "Chen",
+    "Meepo",
+    "Monkey King",
+    "Techies",
+    "Templar Assassin",
+    "Treant Protector"
+    ],
+    worksWell: [
+    "Ursa",
+    "Pugna",
+    "Skywrath Mage",
+    "Pudge"
     ]
+    }
     },
     {
     id: 78,
@@ -1743,7 +4276,45 @@ export const heroList = [
     "Support",
     "Jungler",
     "Pusher"
+    ],
+    counters: {
+    badAgainst: [
+    "Enchantress",
+    "Earthshaker",
+    "Legion Commander",
+    "Sven",
+    "Lina",
+    "Luna",
+    "Monkey King",
+    "Venomancer",
+    "Abaddon",
+    "Jakiro",
+    "Sand King",
+    "Timbersaw",
+    "Necrophos",
+    "Death Prophet",
+    "Dark Seer",
+    "Broodmother",
+    "Alchemist",
+    "Razor",
+    "Phoenix",
+    "Shadow Shaman",
+    "Elder Titan",
+    "Batrider",
+    "Ancient Apparition",
+    "Underlord",
+    "Witch Doctor"
+    ],
+    goodAgainst: [
+    "Techies",
+    "Arc Warden",
+    "Visage",
+    "Clockwerk"
+    ],
+    worksWell: [
+    "Vengeful Spirit"
     ]
+    }
     },
     {
     id: 79,
@@ -1765,7 +4336,32 @@ export const heroList = [
     "Disabler",
     "Nuker",
     "Jungler"
+    ],
+    counters: {
+    badAgainst: [
+    "Bounty Hunter",
+    "Bristleback",
+    "Clockwerk",
+    "Doom",
+    "Earth Spirit",
+    "Legion Commander",
+    "Naga Siren",
+    "Nyx Assassin",
+    "Tidehunter",
+    "Tusk",
+    "Visage"
+    ],
+    goodAgainst: [
+    "Slark",
+    "Phantom Assassin",
+    "Templar Assassin"
+    ],
+    worksWell: [
+    "Juggernaut",
+    "Timbersaw",
+    "Sven"
     ]
+    }
     },
     {
     id: 80,
@@ -1787,7 +4383,30 @@ export const heroList = [
     "Jungler",
     "Escape",
     "Disabler"
+    ],
+    counters: {
+    badAgainst: [
+    "Anti-Mage",
+    "Ember Spirit",
+    "Oracle",
+    "Sniper"
+    ],
+    goodAgainst: [
+    "Broodmother",
+    "Templar Assassin",
+    "Treant Protector",
+    "Meepo",
+    "Venomancer"
+    ],
+    worksWell: [
+    "Bounty Hunter",
+    "Elder Titan",
+    "Enigma",
+    "Riki",
+    "Sven",
+    "Venomancer"
     ]
+    }
     },
     {
     id: 81,
@@ -1809,7 +4428,47 @@ export const heroList = [
     "Nuker",
     "Disabler",
     "Escape"
+    ],
+    counters: {
+    badAgainst: [
+    "Anti-Mage",
+    "Axe",
+    "Bristleback",
+    "Drow Ranger",
+    "Ember Spirit",
+    "Juggernaut",
+    "Lifestealer",
+    "Nyx Assassin",
+    "Oracle",
+    "Puck",
+    "Pudge",
+    "Riki",
+    "Silencer",
+    "Storm Spirit"
+    ],
+    goodAgainst: [
+    "Bloodseeker",
+    "Faceless Void",
+    "Monkey King",
+    "Meepo",
+    "Spirit Breaker",
+    "Timbersaw",
+    "Troll Warlord",
+    "Windranger"
+    ],
+    worksWell: [
+    "Rubick",
+    "Ember Spirit",
+    "Invoker",
+    "Juggernaut",
+    "Lina",
+    "Mirana",
+    "Phoenix",
+    "Puck",
+    "Warlock",
+    "Weaver"
     ]
+    }
     },
     {
     id: 82,
@@ -1830,7 +4489,32 @@ export const heroList = [
     "Support",
     "Nuker",
     "Disabler"
+    ],
+    counters: {
+    badAgainst: [
+    "Ancient Apparition",
+    "Axe",
+    "Naga Siren",
+    "Outworld Devourer",
+    "Phantom Lancer",
+    "Silencer",
+    "Doom"
+    ],
+    goodAgainst: [
+    "Clockwerk",
+    "Legion Commander",
+    "Necrophos",
+    "Venomancer"
+    ],
+    worksWell: [
+    "Brewmaster",
+    "Broodmother",
+    "Huskar",
+    "Meepo",
+    "Naga Siren",
+    "Phantom Lancer"
     ]
+    }
     },
     {
     id: 83,
@@ -1852,7 +4536,28 @@ export const heroList = [
     "Pusher",
     "Nuker",
     "Disabler"
+    ],
+    counters: {
+    badAgainst: [
+    "Ancient Apparition",
+    "Anti-Mage",
+    "Doom",
+    "Legion Commander",
+    "Omniknight",
+    "Shadow Fiend"
+    ],
+    goodAgainst: [
+    "Zeus",
+    "Invoker",
+    "Morphling",
+    "Timbersaw",
+    "Nature's Prophet"
+    ],
+    worksWell: [
+    "Enigma",
+    "Faceless Void"
     ]
+    }
     },
     {
     id: 84,
@@ -1874,7 +4579,32 @@ export const heroList = [
     "Disabler",
     "Nuker",
     "Initiator"
+    ],
+    counters: {
+    badAgainst: [
+    "Juggernaut",
+    "Lifestealer",
+    "Omniknight",
+    "Phantom Lancer",
+    "Pugna"
+    ],
+    goodAgainst: [
+    "Slark",
+    "Queen of Pain",
+    "Anti-Mage",
+    "Tidehunter",
+    "Storm Spirit",
+    "Io"
+    ],
+    worksWell: [
+    "Zeus",
+    "Anti-Mage",
+    "Keeper of the Light",
+    "Elder Titan",
+    "Warlock",
+    "Clinkz"
     ]
+    }
     },
     {
     id: 85,
@@ -1897,7 +4627,38 @@ export const heroList = [
     "Pusher",
     "Durable",
     "Disabler"
+    ],
+    counters: {
+    badAgainst: [
+    "Broodmother",
+    "Chen",
+    "Crystal Maiden",
+    "Juggernaut",
+    "Lifestealer",
+    "Lina",
+    "Luna",
+    "Meepo",
+    "Riki",
+    "Timbersaw",
+    "Troll Warlord",
+    "Venomancer",
+    "Windranger"
+    ],
+    goodAgainst: [
+    "Ember Spirit",
+    "Lycan",
+    "Omniknight",
+    "Spirit Breaker",
+    "Sven",
+    "Ursa"
+    ],
+    worksWell: [
+    "Legion Commander",
+    "Lich",
+    "Io",
+    "Warlock"
     ]
+    }
     },
     {
     id: 86,
@@ -1919,7 +4680,40 @@ export const heroList = [
     "Jungler",
     "Initiator",
     "Pusher"
+    ],
+    counters: {
+    badAgainst: [
+    "Clockwerk",
+    "Medusa",
+    "Pudge",
+    "Rubick",
+    "Silencer",
+    "Sniper",
+    "Spectre",
+    "Storm Spirit",
+    "Vengeful Spirit",
+    "Warlock",
+    "Winter Wyvern",
+    "Zeus"
+    ],
+    goodAgainst: [
+    "Anti-Mage",
+    "Chaos Knight",
+    "Omniknight",
+    "Monkey King",
+    "Lifestealer",
+    "Crystal Maiden"
+    ],
+    worksWell: [
+    "Phoenix",
+    "Crystal Maiden",
+    "Warlock",
+    "Dark Seer",
+    "Witch Doctor",
+    "Outworld Devourer",
+    "Naga Siren"
     ]
+    }
     },
     {
     id: 87,
@@ -1941,7 +4735,34 @@ export const heroList = [
     "Nuker",
     "Disabler",
     "Escape"
+    ],
+    counters: {
+    badAgainst: [
+    "Anti-Mage",
+    "Huskar",
+    "Omniknight",
+    "Phoenix",
+    "Riki",
+    "Rubick",
+    "Shadow Demon",
+    "Silencer",
+    "Sniper",
+    "Vengeful Spirit"
+    ],
+    goodAgainst: [ ],
+    worksWell: [
+    "Bane",
+    "Crystal Maiden",
+    "Lich",
+    "Lion",
+    "Lina",
+    "Necrophos",
+    "Phoenix",
+    "Pugna",
+    "Slark",
+    "Witch Doctor"
     ]
+    }
     },
     {
     id: 88,
@@ -1964,7 +4785,39 @@ export const heroList = [
     "Disabler",
     "Escape",
     "Pusher"
+    ],
+    counters: {
+    badAgainst: [
+    "Anti-Mage",
+    "Broodmother",
+    "Doom",
+    "Faceless Void",
+    "Lifestealer",
+    "Juggernaut",
+    "Night Stalker",
+    "Nyx Assassin",
+    "Queen of Pain",
+    "Silencer",
+    "Storm Spirit",
+    "Templar Assassin",
+    "Viper"
+    ],
+    goodAgainst: [
+    "Huskar",
+    "Legion Commander",
+    "Medusa",
+    "Tinker",
+    "Wraith King"
+    ],
+    worksWell: [
+    "Bloodseeker",
+    "Dark Seer",
+    "Disruptor",
+    "Nature's Prophet",
+    "Faceless Void",
+    "Legion Commander"
     ]
+    }
     },
     {
     id: 89,
@@ -1986,7 +4839,38 @@ export const heroList = [
     "Nuker",
     "Pusher",
     "Disabler"
+    ],
+    counters: {
+    badAgainst: [
+    "Anti-Mage",
+    "Clockwerk",
+    "Lifestealer",
+    "Oracle",
+    "Rubick",
+    "Silencer",
+    "Skywrath Mage"
+    ],
+    goodAgainst: [
+    "Axe",
+    "Broodmother",
+    "Chen",
+    "Chaos Knight",
+    "Meepo",
+    "Nature's Prophet",
+    "Phantom Lancer",
+    "Riki",
+    "Templar Assassin",
+    "Treant Protector"
+    ],
+    worksWell: [
+    "Dark Seer",
+    "Faceless Void",
+    "Kunkka",
+    "Magnus",
+    "Shadow Demon",
+    "Treant Protector"
     ]
+    }
     },
     {
     id: 90,
@@ -2008,7 +4892,26 @@ export const heroList = [
     "Nuker",
     "Disabler",
     "Jungler"
+    ],
+    counters: {
+    badAgainst: [
+    "Legion Commander",
+    "Lifestealer",
+    "Night Stalker",
+    "Nyx Assassin"
+    ],
+    goodAgainst: [
+    "Monkey King",
+    "Wraith King"
+    ],
+    worksWell: [
+    "Mars",
+    "Medusa",
+    "Lina",
+    "Luna",
+    "Pudge"
     ]
+    }
     },
     {
     id: 91,
@@ -2031,7 +4934,31 @@ export const heroList = [
     "Nuker",
     "Pusher",
     "Disabler"
+    ],
+    counters: {
+    badAgainst: [
+    "Pugna",
+    "Anti-Mage",
+    "Clockwerk",
+    "Lifestealer",
+    "Nyx Assassin"
+    ],
+    goodAgainst: [
+    "Meepo",
+    "Visage",
+    "Chen",
+    "Broodmother",
+    "Io",
+    "Shadow Demon",
+    "Phantom Lancer"
+    ],
+    worksWell: [
+    "Dark Seer",
+    "Enigma",
+    "Magnus",
+    "Oracle"
     ]
+    }
     },
     {
     id: 92,
@@ -2051,7 +4978,28 @@ export const heroList = [
     roles: [
     "Support",
     "Nuker"
+    ],
+    counters: {
+    badAgainst: [
+    "Anti-Mage",
+    "Broodmother",
+    "Huskar",
+    "Nature's Prophet",
+    "Weaver"
+    ],
+    goodAgainst: [
+    "Meepo",
+    "Chaos Knight"
+    ],
+    worksWell: [
+    "Magnus",
+    "Treant Protector",
+    "Witch Doctor",
+    "Faceless Void",
+    "Enigma",
+    "Axe"
     ]
+    }
     },
     {
     id: 93,
@@ -2073,7 +5021,33 @@ export const heroList = [
     "Carry",
     "Nuker",
     "Disabler"
+    ],
+    counters: {
+    badAgainst: [
+    "Anti-Mage",
+    "Faceless Void",
+    "Lifestealer",
+    "Nyx Assassin",
+    "Phantom Lancer",
+    "Silencer",
+    "Slark",
+    "Spectre",
+    "Sven",
+    "Viper"
+    ],
+    goodAgainst: [
+    "Crystal Maiden",
+    "Enchantress",
+    "Mirana",
+    "Terrorblade"
+    ],
+    worksWell: [
+    "Shadow Demon",
+    "Sven",
+    "Pugna",
+    "Bane"
     ]
+    }
     },
     {
     id: 94,
@@ -2095,7 +5069,34 @@ export const heroList = [
     "Disabler",
     "Nuker",
     "Initiator"
+    ],
+    counters: {
+    badAgainst: [
+    "Abaddon",
+    "Lifestealer",
+    "Puck",
+    "Rubick",
+    "Slark",
+    "Nyx Assassin",
+    "Tidehunter"
+    ],
+    goodAgainst: [
+    "Drow Ranger",
+    "Ember Spirit",
+    "Enchantress",
+    "Medusa",
+    "Phantom Assassin",
+    "Weaver",
+    "Wraith King"
+    ],
+    worksWell: [
+    "Anti-Mage",
+    "Centaur Warrunner",
+    "Leshrac",
+    "Tinker",
+    "Ursa"
     ]
+    }
     },
     {
     id: 95,
@@ -2118,7 +5119,45 @@ export const heroList = [
     "Pusher",
     "Escape",
     "Nuker"
+    ],
+    counters: {
+    badAgainst: [
+    "Batrider",
+    "Broodmother",
+    "Clockwerk",
+    "Death Prophet",
+    "Doom",
+    "Earthshaker",
+    "Elder Titan",
+    "Faceless Void",
+    "Jakiro",
+    "Lina",
+    "Meepo",
+    "Naga Siren",
+    "Sand King",
+    "Spectre",
+    "Spirit Breaker",
+    "Storm Spirit",
+    "Tinker",
+    "Viper"
+    ],
+    goodAgainst: [
+    "Bane",
+    "Lich",
+    "Luna",
+    "Monkey King",
+    "Techies",
+    "Venomancer"
+    ],
+    worksWell: [
+    "Bloodseeker",
+    "Invoker",
+    "Lycan",
+    "Windranger",
+    "Riki",
+    "Mars"
     ]
+    }
     },
     {
     id: 96,
@@ -2140,7 +5179,31 @@ export const heroList = [
     "Nuker",
     "Durable",
     "Disabler"
+    ],
+    counters: {
+    badAgainst: [
+    "Ancient Apparition",
+    "Anti-Mage",
+    "Dazzle",
+    "Meepo",
+    "Oracle",
+    "Phantom Lancer",
+    "Rubick"
+    ],
+    goodAgainst: [
+    "Bristleback",
+    "Pudge",
+    "Axe",
+    "Phoenix",
+    "Sven"
+    ],
+    worksWell: [
+    "Abaddon",
+    "Axe",
+    "Legion Commander",
+    "Pugna"
     ]
+    }
     },
     {
     id: 97,
@@ -2163,7 +5226,29 @@ export const heroList = [
     "Disabler",
     "Durable",
     "Initiator"
+    ],
+    counters: {
+    badAgainst: [
+    "Chaos Knight",
+    "Lifestealer",
+    "Meepo",
+    "Phantom Lancer",
+    "Omniknight",
+    "Oracle"
+    ],
+    goodAgainst: [
+    "Io",
+    "Templar Assassin",
+    "Treant Protector"
+    ],
+    worksWell: [
+    "Juggernaut",
+    "Shadow Fiend",
+    "Sniper",
+    "Sven",
+    "Wraith King"
     ]
+    }
     },
     {
     id: 98,
@@ -2185,7 +5270,42 @@ export const heroList = [
     "Nuker",
     "Disabler",
     "Escape"
+    ],
+    counters: {
+    badAgainst: [
+    "Anti-Mage",
+    "Axe",
+    "Bristleback",
+    "Faceless Void",
+    "Shadow Demon",
+    "Spectre"
+    ],
+    goodAgainst: [
+    "Ember Spirit",
+    "Legion Commander",
+    "Dark Willow",
+    "Omniknight",
+    "Rubick",
+    "Ancient Apparition",
+    "Silencer",
+    "Phoenix"
+    ],
+    worksWell: [
+    "Alchemist",
+    "Ancient Apparition",
+    "Death Prophet",
+    "Huskar",
+    "Io",
+    "Legion Commander",
+    "Monkey King",
+    "Shadow Demon",
+    "Timbersaw",
+    "Ursa",
+    "Leshrac",
+    "Troll Warlord",
+    "Necrophos"
     ]
+    }
     },
     {
     id: 99,
@@ -2206,7 +5326,36 @@ export const heroList = [
     "Carry",
     "Nuker",
     "Disabler"
+    ],
+    counters: {
+    badAgainst: [
+    "Legion Commander",
+    "Lone Druid",
+    "Nyx Assassin",
+    "Pugna",
+    "Rubick",
+    "Silencer",
+    "Sniper",
+    "Templar Assassin"
+    ],
+    goodAgainst: [
+    "Anti-Mage",
+    "Huskar",
+    "Legion Commander",
+    "Winter Wyvern",
+    "Morphling",
+    "Timbersaw",
+    "Wraith King",
+    "Medusa"
+    ],
+    worksWell: [
+    "Ogre Magi",
+    "Silencer",
+    "Winter Wyvern",
+    "Drow Ranger",
+    "Luna"
     ]
+    }
     },
     {
     id: 100,
@@ -2228,7 +5377,35 @@ export const heroList = [
     "Disabler",
     "Escape",
     "Nuker"
+    ],
+    counters: {
+    badAgainst: [
+    "Arc Warden",
+    "Faceless Void",
+    "Jakiro",
+    "Lycan",
+    "Night Stalker",
+    "Nyx Assassin",
+    "Silencer",
+    "Templar Assassin",
+    "Venomancer",
+    "Wraith King"
+    ],
+    goodAgainst: [
+    "Crystal Maiden",
+    "Mirana",
+    "Phoenix",
+    "Sniper",
+    "Terrorblade"
+    ],
+    worksWell: [
+    "Enigma",
+    "Invoker",
+    "Kunkka",
+    "Phoenix",
+    "Witch Doctor"
     ]
+    }
     },
     {
     id: 101,
@@ -2248,7 +5425,39 @@ export const heroList = [
     roles: [
     "Nuker",
     "Pusher"
+    ],
+    counters: {
+    badAgainst: [
+    "Nyx Assassin",
+    "Clockwerk",
+    "Sniper",
+    "Phantom Lancer",
+    "Anti-Mage",
+    "Luna",
+    "Oracle",
+    "Storm Spirit"
+    ],
+    goodAgainst: [
+    "Enchantress",
+    "Juggernaut",
+    "Outworld Devourer",
+    "Timbersaw",
+    "Leshrac",
+    "Chaos Knight",
+    "Shadow Fiend",
+    "Faceless Void",
+    "Invoker",
+    "Skywrath Mage"
+    ],
+    worksWell: [
+    "Io",
+    "Legion Commander",
+    "Necrophos",
+    "Medusa",
+    "Skywrath Mage",
+    "Shadow Shaman"
     ]
+    }
     },
     {
     id: 102,
@@ -2270,7 +5479,40 @@ export const heroList = [
     "Carry",
     "Nuker",
     "Escape"
+    ],
+    counters: {
+    badAgainst: [
+    "Anti-Mage",
+    "Arc Warden",
+    "Axe",
+    "Bloodseeker",
+    "Death Prophet",
+    "Disruptor",
+    "Faceless Void",
+    "Legion Commander",
+    "Luna",
+    "Meepo",
+    "Night Stalker",
+    "Nyx Assassin",
+    "Puck",
+    "Skywrath Mage"
+    ],
+    goodAgainst: [
+    "Drow Ranger",
+    "Enchantress",
+    "Huskar",
+    "Slark"
+    ],
+    worksWell: [
+    "Axe",
+    "Dark Seer",
+    "Enigma",
+    "Faceless Void",
+    "Lifestealer",
+    "Magnus",
+    "Omniknight"
     ]
+    }
     },
     {
     id: 103,
@@ -2291,7 +5533,38 @@ export const heroList = [
     "Support",
     "Disabler",
     "Nuker"
+    ],
+    counters: {
+    badAgainst: [
+    "Bristleback",
+    "Clinkz",
+    "Legion Commander",
+    "Riki",
+    "Shadow Fiend",
+    "Silencer",
+    "Slark",
+    "Wraith King"
+    ],
+    goodAgainst: [
+    "Crystal Maiden",
+    "Earthshaker",
+    "Enigma",
+    "Invoker",
+    "Lich",
+    "Lina",
+    "Lion",
+    "Luna",
+    "Magnus",
+    "Morphling",
+    "Omniknight"
+    ],
+    worksWell: [
+    "Alchemist",
+    "Ancient Apparition",
+    "Crystal Maiden",
+    "Pudge"
     ]
+    }
     },
     {
     id: 104,
@@ -2313,7 +5586,34 @@ export const heroList = [
     "Disabler",
     "Initiator",
     "Nuker"
+    ],
+    counters: {
+    badAgainst: [
+    "Anti-Mage",
+    "Ember Spirit",
+    "Leshrac",
+    "Lion",
+    "Phantom Assassin",
+    "Storm Spirit"
+    ],
+    goodAgainst: [
+    "Alchemist",
+    "Anti-Mage",
+    "Dark Seer",
+    "Legion Commander",
+    "Omniknight",
+    "Spectre",
+    "Juggernaut",
+    "Luna",
+    "Techies"
+    ],
+    worksWell: [
+    "Ancient Apparition",
+    "Dazzle",
+    "Terrorblade",
+    "Razor"
     ]
+    }
     },
     {
     id: 105,
@@ -2336,7 +5636,31 @@ export const heroList = [
     "Disabler",
     "Nuker",
     "Initiator"
+    ],
+    counters: {
+    badAgainst: [
+    "Mirana",
+    "Morphling",
+    "Riki",
+    "Wraith King",
+    "Visage"
+    ],
+    goodAgainst: [
+    "Huskar",
+    "Nature's Prophet",
+    "Spirit Breaker",
+    "Templar Assassin",
+    "Terrorblade",
+    "Weaver"
+    ],
+    worksWell: [
+    "Juggernaut",
+    "Ursa",
+    "Troll Warlord",
+    "Pugna",
+    "Legion Commander"
     ]
+    }
     },
     {
     id: 106,
@@ -2359,7 +5683,36 @@ export const heroList = [
     "Disabler",
     "Initiator",
     "Nuker"
+    ],
+    counters: {
+    badAgainst: [
+    "Broodmother",
+    "Lycan",
+    "Nyx Assassin",
+    "Phantom Assassin",
+    "Phantom Lancer",
+    "Slark",
+    "Sniper",
+    "Ursa"
+    ],
+    goodAgainst: [
+    "Bristleback",
+    "Crystal Maiden",
+    "Enigma",
+    "Outworld Devourer",
+    "Pugna",
+    "Timbersaw",
+    "Tinker",
+    "Windranger",
+    "Zeus"
+    ],
+    worksWell: [
+    "Crystal Maiden",
+    "Anti-Mage",
+    "Pudge",
+    "Outworld Devourer"
     ]
+    }
     },
     {
     id: 107,
@@ -2380,7 +5733,33 @@ export const heroList = [
     "Support",
     "Nuker",
     "Disabler"
+    ],
+    counters: {
+    badAgainst: [
+    "Anti-Mage",
+    "Huskar",
+    "Abaddon",
+    "Pugna",
+    "Nyx Assassin",
+    "Wraith King"
+    ],
+    goodAgainst: [
+    "Timbersaw",
+    "Storm Spirit",
+    "Enchantress",
+    "Alchemist",
+    "Vengeful Spirit",
+    "Winter Wyvern"
+    ],
+    worksWell: [
+    "Faceless Void",
+    "Undying",
+    "Centaur Warrunner",
+    "Pugna",
+    "Silencer",
+    "Legion Commander"
     ]
+    }
     },
     {
     id: 108,
@@ -2403,7 +5782,34 @@ export const heroList = [
     "Nuker",
     "Initiator",
     "Disabler"
+    ],
+    counters: {
+    badAgainst: [
+    "Anti-Mage",
+    "Doom",
+    "Ember Spirit",
+    "Night Stalker",
+    "Nyx Assassin",
+    "Riki",
+    "Silencer",
+    "Skywrath Mage"
+    ],
+    goodAgainst: [
+    "Ancient Apparition",
+    "Arc Warden",
+    "Bloodseeker",
+    "Sniper",
+    "Spectre",
+    "Tinker",
+    "Vengeful Spirit",
+    "Weaver"
+    ],
+    worksWell: [
+    "Keeper of the Light",
+    "Omniknight",
+    "Lifestealer"
     ]
+    }
     },
     {
     id: 109,
@@ -2423,7 +5829,38 @@ export const heroList = [
     roles: [
     "Nuker",
     "Disabler"
+    ],
+    counters: {
+    badAgainst: [
+    "Abaddon",
+    "Anti-Mage",
+    "Batrider",
+    "Beastmaster",
+    "Chen",
+    "Death Prophet",
+    "Juggernaut",
+    "Lifestealer",
+    "Night Stalker",
+    "Oracle",
+    "Templar Assassin",
+    "Visage",
+    "Wraith King",
+    "Zeus"
+    ],
+    goodAgainst: [
+    "Ember Spirit",
+    "Meepo",
+    "Monkey King",
+    "Morphling",
+    "Tinker"
+    ],
+    worksWell: [
+    "Batrider",
+    "Crystal Maiden",
+    "Magnus",
+    "Tusk"
     ]
+    }
     },
     {
     id: 110,
@@ -2444,7 +5881,45 @@ export const heroList = [
     "Carry",
     "Nuker",
     "Pusher"
+    ],
+    counters: {
+    badAgainst: [
+    "Anti-Mage",
+    "Clockwerk",
+    "Dazzle",
+    "Doom",
+    "Legion Commander",
+    "Lifestealer",
+    "Luna",
+    "Night Stalker",
+    "Nyx Assassin",
+    "Pudge",
+    "Silencer",
+    "Slark",
+    "Storm Spirit",
+    "Vengeful Spirit",
+    "Zeus",
+    "Pugna"
+    ],
+    goodAgainst: [
+    "Bloodseeker",
+    "Chaos Knight",
+    "Faceless Void",
+    "Shadow Fiend",
+    "Terrorblade",
+    "Timbersaw"
+    ],
+    worksWell: [
+    "Faceless Void",
+    "Kunkka",
+    "Nature's Prophet",
+    "Spirit Breaker",
+    "Bloodseeker",
+    "Keeper of the Light",
+    "Bounty Hunter",
+    "Slardar"
     ]
+    }
     },
     {
     id: 111,
@@ -2467,7 +5942,33 @@ export const heroList = [
     "Durable",
     "Disabler",
     "Pusher"
+    ],
+    counters: {
+    badAgainst: [
+    "Axe",
+    "Centaur Warrunner",
+    "Luna",
+    "Rubick",
+    "Timbersaw",
+    "Tidehunter"
+    ],
+    goodAgainst: [
+    "Clockwerk",
+    "Invoker",
+    "Nature's Prophet",
+    "Puck",
+    "Pudge",
+    "Shadow Shaman",
+    "Spectre"
+    ],
+    worksWell: [
+    "Drow Ranger",
+    "Slardar",
+    "Lifestealer",
+    "Beastmaster",
+    "Elder Titan"
     ]
+    }
     },
     {
     id: 112,
@@ -2488,7 +5989,33 @@ export const heroList = [
     "Support",
     "Initiator",
     "Disabler"
+    ],
+    counters: {
+    badAgainst: [
+    "Weaver",
+    "Anti-Mage",
+    "Bloodseeker",
+    "Silencer",
+    "Dark Seer",
+    "Ember Spirit"
+    ],
+    goodAgainst: [
+    "Huskar",
+    "Meepo",
+    "Templar Assassin",
+    "Shadow Fiend"
+    ],
+    worksWell: [
+    "Sven",
+    "Bloodseeker",
+    "Axe",
+    "Dark Seer",
+    "Magnus",
+    "Enigma",
+    "Silencer",
+    "Spectre"
     ]
+    }
     },
     {
     id: 113,
@@ -2511,7 +6038,33 @@ export const heroList = [
     "Disabler",
     "Escape",
     "Nuker"
+    ],
+    counters: {
+    badAgainst: [
+    "Axe",
+    "Bloodseeker",
+    "Centaur Warrunner",
+    "Clockwerk",
+    "Ember Spirit",
+    "Morphling",
+    "Razor",
+    "Spectre",
+    "Venomancer"
+    ],
+    goodAgainst: [
+    "Earthshaker",
+    "Huskar",
+    "Phantom Assassin",
+    "Phantom Lancer",
+    "Pudge",
+    "Shadow Fiend",
+    "Ursa"
+    ],
+    worksWell: [
+    "Nature's Prophet",
+    "Drow Ranger"
     ]
+    }
     },
     {
     id: 114,
@@ -2532,7 +6085,38 @@ export const heroList = [
     "Support",
     "Disabler",
     "Nuker"
+    ],
+    counters: {
+    badAgainst: [
+    "Ancient Apparition",
+    "Invoker",
+    "Luna",
+    "Naga Siren",
+    "Omniknight",
+    "Outworld Devourer",
+    "Pugna",
+    "Skywrath Mage",
+    "Slark",
+    "Timbersaw",
+    "Tinker",
+    "Undying"
+    ],
+    goodAgainst: [
+    "Beastmaster",
+    "Chaos Knight",
+    "Lycan",
+    "Legion Commander",
+    "Meepo",
+    "Troll Warlord"
+    ],
+    worksWell: [
+    "Dark Seer",
+    "Enigma",
+    "Magnus",
+    "Venomancer",
+    "Invoker"
     ]
+    }
     },
     {
     id: 115,
@@ -2553,7 +6137,35 @@ export const heroList = [
     "Support",
     "Nuker",
     "Disabler"
+    ],
+    counters: {
+    badAgainst: [
+    "Faceless Void",
+    "Lina",
+    "Luna",
+    "Morphling",
+    "Omniknight",
+    "Oracle",
+    "Riki",
+    "Rubick",
+    "Silencer",
+    "Vengeful Spirit"
+    ],
+    goodAgainst: [
+    "Lone Druid",
+    "Lycan",
+    "Monkey King",
+    "Venomancer"
+    ],
+    worksWell: [
+    "Enigma",
+    "Faceless Void",
+    "Lich",
+    "Magnus",
+    "Underlord",
+    "Undying"
     ]
+    }
     },
     {
     id: 116,
@@ -2572,6 +6184,38 @@ export const heroList = [
     attackRange: "range",
     roles: [
     "Nuker"
+    ],
+    counters: {
+    badAgainst: [
+    "Anti-Mage",
+    "Faceless Void",
+    "Chaos Knight",
+    "Juggernaut",
+    "Lifestealer",
+    "Meepo",
+    "Pudge",
+    "Pugna",
+    "Silencer",
+    "Ursa",
+    "Viper"
+    ],
+    goodAgainst: [
+    "Slardar",
+    "Enchantress",
+    "Timbersaw",
+    "Bounty Hunter",
+    "Winter Wyvern",
+    "Lich",
+    "Necrophos",
+    "Tinker"
+    ],
+    worksWell: [
+    "Ancient Apparition",
+    "Bloodseeker",
+    "Dazzle",
+    "Omniknight",
+    "Tidehunter"
     ]
+    }
     }
     ]

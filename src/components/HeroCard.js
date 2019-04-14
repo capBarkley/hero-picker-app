@@ -1,7 +1,7 @@
 import React from 'react';
 import './HeroCard.css'
 
-const HeroCard = ({name, primAttr, health, imgUrl, roles}) => {
+const HeroCard = ({id, name, primAttr, health, imgUrl, roles, idToShow, changeCard}) => {
     let color = '';
     switch (primAttr) {
         case 'Strength':
@@ -15,8 +15,14 @@ const HeroCard = ({name, primAttr, health, imgUrl, roles}) => {
          break;
     }
     let style = `heroCard tc ${color} dib br3 pa3 ma2 grow bw2 shadow-5`;
-    return (
+    if (id === idToShow) return (
         <div className={style}>
+            <h1 className='heroName'>{name}</h1>
+            <img className='heroImg' alt='heroImg' src={imgUrl} weight='120'/>
+        </div>
+    );
+    return (
+        <div className={style} onClick={changeCard}>
             <h1 className='heroName'>{name}</h1>
             <img className='heroImg' alt='heroImg' src={imgUrl} weight='120'/>
             <table className='heroAttr'>

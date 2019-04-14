@@ -3,7 +3,32 @@
     padding: 0;
 }
 
+.heroCard {
+    box-sizing: border-box;
+    width: 18%;
+    height: 500px;
+}
+
 th {
     text-align: left;
     vertical-align: text-top; 
 }
+
+@media screen and (max-width: 1200px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .heroCard {
+    box-sizing: border-box;
+    width: 25%;
+    height: 500px;
+    }
+
+    th {
+        text-align: left;
+        vertical-align: text-top; 
+    }
+}
+
